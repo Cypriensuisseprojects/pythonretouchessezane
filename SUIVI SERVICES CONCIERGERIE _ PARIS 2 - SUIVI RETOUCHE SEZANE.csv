@@ -1,5 +1,731 @@
 A REMPLIR AVANT ENVOIE EN RETOUCHE                                                                                                     ,,,,,,,,,,A REMPLIR AU RETOUR DES RETOUCHES,,
 DATE CLIENT,N° SOUCHE,NOM,PRENOM,N° COMMANDE ,Email,NOM ARTICLE,DESCRIPTIF DE LA RETOUCHE ,MONTANT À REGLER,DATE ENVOIE,DATE DISPO,COMMENTAIRES RETAIL,                     RECEPTIONNÉ PAR LE CLIENT
+02/01/24,582,LANNES,Diane-Eva,356865232,,Marino Marine T36,OS -5cm,PAYÉ,02/01/24,05/01/24,,TRUE
+02/01/24,581,CERO,Clarisse,356862772,,Pantalon Marino - Marine - 40,OO -9cm,PAYÉ,02/01/24,05/01/24,Sera récupéré par un ami,TRUE
+02/01/24,583,VERDONCK,Charlotte,355805201,,Martin Marine T38,OO -7cm,PAYÉ,02/01/24,05/01/24,,TRUE
+02/01/24,995,REMY,Delphine,356816153,,Combinaison Brooklyn - Noir - 36,OO -8cm ,PAYÉ,02/01/24,05/01/24,,TRUE
+02/01/24,512,ROCHA,Clémantine,356458714,,70's Indigo T32,"OO -14,5cm",PAYÉ,/,05/01/24,,TRUE
+02/01/24,511,CLEMENCON,Géraldine,/,,Loulou noir 34,"OO-1,5cm",PAYÉ,05/01/24,05/01/24,,TRUE
+03/01/24,980,CHEVALLEREAU,EMILY,356828778,,DAN  VEL NOIR,OO -8cm ,PAYÉ,05/01/24,12/01/24,,TRUE
+03/01/24,509,BARANGER,Juliette ,35621516,,WIDE LEG BLUE,"OO-5,5 ET -4,5",PAYÉ,05/01/24,12/01/24,,TRUE
+03/01/24,508,CHERUBIN,Apolline,356496013,,Marino Marine T34,OS -17cm,PAYÉ,05/01/24,12/01/24,,TRUE
+03/01/24,507,DARGENT,Clémence,356436860,,Blouse Loubna - Jacquard Vert Bouteille  - 34,Recoudre élastique,OFFERT,05/01/24,12/01/24,,TRUE
+03/01/24,506,KRIKORIAN,Stéphanie,356021745,,Pantalon Loulou - Noir - 32,Recoudre ourlet,PAYÉ,05/01/24,12/01/24,,TRUE
+03/01/24,505,CLAVERIE,Emilie,356608683,,70's / Indigo / 42,OO -5cm,PAYÉ,05/01/24,12/01/24,,TRUE
+04/01/24,503,DE SOLAGES,Aurore,354592099,,Veste Will  - Marine col mouton - S,Réparer fonde de poche + élastique col,OFFERT,05/01/24,12/01/24,,TRUE
+04/01/24,504,CAMPS,EVA,356504873,,DAN NOIR 38,OO -8cm ,PAYÉ,05/01/24,12/01/24,,TRUE
+04/01/24,502,BOILLOT,Julie,4386269,,Gilet Gaspard - Pivoine - S,Recoudre boutons,OFFERT,05/01/24,12/01/24,,TRUE
+04/01/24,501,PERAUD,Marylou,356933773,,Pantalon Marino - Sienne Velours - 36,OO - 4cm,PAYÉ,05/01/24,12/01/24,,TRUE
+05/01/24,999,ROBERT,Mirabelle,356526994,,Pantanlon Dan noir T.34,OS - 6cm,PAYÉ,05/01/24,12/01/24,,TRUE
+05/01/24,998,GUERRIER,Guerline,356931307,,Pantalon Marino Denim T.32,OO -10cm,PAYÉ,05/01/24,12/01/24,,TRUE
+05/01/24,997,RENOU,Arthéa,356918091,,Pantalon Marino Marine T.34,OS - 6cm,PAYÉ,05/01/24,12/01/24,,TRUE
+05/01/24,904,GUERRIER,Guerline,356931307,,Slim Parfait bleu denim T.25,OO -5cm,PAYÉ,05/01/24,12/01/24,,TRUE
+05/01/24,996,LEBON,Pauline,356915135,,oo,OS -6cm,PAYÉ,05/01/24,12/01/24,,TRUE
+05/01/24,997,SERGENT,Lysa, ,,Jupe Foxy / Cara / 36,Réparer Zip,OFFERT,05/01/24,12/01/24,,TRUE
+05/01/24,999,SERGENT,Lysa,355207761,,Jupe Foxy / Atik / 34,Réparer Zip,OFFERT,05/01/24,12/01/24,,TRUE
+05/01/24,996,LE GAL,JULIE,12219803,,GASPARD BLEU EELEC,TROU RECOUDER,OFFERT,05/01/24,12/01/24,,TRUE
+05/01/24,995,LE CLEC'H,Justine,356844123,,Pantalon Marino - Sienne Velours - 34,OO -8cm,PAYÉ,05/01/24,12/01/24,,TRUE
+05/01/24,994,LE CLEC'H,Justine,356844123,,Veste Romane - Sienne Velours - 34,"Reprise manches -7cm + Bas de veste -4,5cm",PAYÉ,05/01/24,12/01/24,,TRUE
+05/01/24,993,LE CLEC'H,Justine,356844123,,Slim Parfait - Bleu Denim - TALL - 26,OO -8cm,PAYÉ,05/01/24,12/01/24,,TRUE
+05/01/24,905,MULET,Anouk,356942025,,Pantalon Marino - Denim - 34,OS -9cms,PAYÉ,05/01/24,12/01/24,,TRUE
+05/01/24,906,JAMET,Gaelle,NC,,Manteau James T 36,Recoudre bouton,OFFERT,05/01/24,12/01/24,,TRUE
+05/01/24,991,HOSSAIN,Mousumi,356712873,,Pantalon Loulou café T.34,Recoudre ourlet,OFFERT,26/12/23,12/01/24,,TRUE
+05/01/24,990,RICHARD,ANTOINE,356885102,,JEAN AVI OCTOBRE,"OO.  -9,5",PAYÉ,09/01/24,12/01/24,,TRUE
+06/01/24,910,BENATOUIL,Laura,356953645,,Pantalon Marino Marine T.38,OO -4cm,PAYÉ,09/01/24,12/01/24,,TRUE
+06/01/24,911,BENATOUIL,Laura,356953645,,Pantalon Marino Marine T.38,Reprised de taille -1cm,PAYÉ,09/01/24,12/01/24,,TRUE
+06/01/24,964,BOURDIN,Soazik,356749528,,Pantalon Marino - Sienne Velours - 36,"OO - 7,5cm",PAYÉ,09/01/24,12/01/24,,TRUE
+21/12/23,987,PARIZY,Romane,356712072,,Pantalon Loulou Noir T.36,"Rallonger de 1,5cm sur la base de la jambe droite",OFFERT,09/01/24,12/01/24,Retouche a refaire jambe asymétrique et pas assez long,TRUE
+09/01/24,986,REVOL,Charlotte,2320946,,Chemise Pierro - Imprimé Fall Flowers - 38,Recoudre emanchure + Trou dans la manche,OFFERT,09/01/24,16/01/24,,TRUE
+09/01/24,984,GIRAUD,FREDERIQUE,69686553,,BLOUSE AGATHE,RECOUDRE BOUTONS,OFFERT,09/01/24,12/01/24,,TRUE
+09/01/24,585,CANALES,Maria,356144507,,Pantalon Guillaume camel T.M,OS -3cm,PAYÉ,09/01/24,12/01/24,,TRUE
+09/01/24,586,CHENEAU,Oriane,356959058,,Rodrigo vert bouteille t36,OS -54cm,PAYÉ,09/01/24,12/01/24,,TRUE
+09/01/24,914,TOUSSAINT,Emilie,356991195,,Marino Denim T38,OS -7cm,PAYÉ,09/01/24,12/01/24,,TRUE
+09/01/24,913,BARNAULT,Mathilde,356956521,,Combi Sky Bleu T34,Reprise bretelle -2cm / OS-11cm,PAYÉ,09/01/24,12/01/24,,TRUE
+09/01/24,912,LAPORTE,Alix,356953724,,Rodrigo Vert bouteille T34,OO -9cm,PAYÉ,09/01/24,12/01/24,,TRUE
+09/01/24,909 / 908,JASQUIER,Emma,356952079,,Dan Caramel T38,reprise taille -1cm / OO -11cm,PAYÉ,09/01/24,12/01/24,,TRUE
+09/01/24,584,MARCOUT,Clémence,356956781,,Florentino navy T36,OS -9cms,PAYÉ,09/01/24,12/01/24,,TRUE
+09/01/24,982,DUCOUDRE,Charlotte,356530899,,Manteau Jim - Noir - 38,Réparer doublure trous,OFFERT,12/01/24,16/01/24,,TRUE
+10/01/24,975,OSTERLIND,OLOF,OCTOBRE,,PANTA VEL MARRON,OO -8cm,PAYÉ,12/01/24,16/01/24,,TRUE
+10/01/24,974,GACON-QUEYROY,Inès,356660100,,Pantalon Chuck camel 34,"OO -6,5cm",PAYÉ,12/01/24,16/01/24,,TRUE
+10/01/24,973,TANTET,Yan Luca / Léa,356876470,,Pantalon Chuck navy 36,"OO -8,5cm",PAYÉ,12/01/24,16/01/24,,TRUE
+11/01/24,971,BURSZTYN,Maud,9540522,,Gilet Margaux S,Réparage démaillage / lurex,OFFERT,12/01/24,16/01/24,,TRUE
+11/01/24,970,BURSZTYN,Maud,/,,Pull écru S,Réparer démaillage,OFFERT,12/01/24,16/01/24,,TRUE
+11/01/24,967,DE LA HARPE,BERGAMOTTE,2566359,,Pull Nicky noir M ,Redonner de la matière sous aiselles + coudes,OFFERT,12/01/24,16/01/24,,TRUE
+12/01/24,961,VIEILLE,Myriam,354852911,,Chemise Claudita T34,Réparer pression manche gauche,OFFERT,12/01/24,12/01/24,,TRUE
+12/01/24,939,CANALES,Maria,356967708,,Pantalon Giacomo gris T36,OO -9cm,OFFERT,,19/01/24,,TRUE
+12/01/24,938,PIERRONT,Cécile,354433082,,Pantalon Martin - Marine - 38,Recoudre ourlet défait,OFFERT,16/01/24,19/01/24,,TRUE
+21/12/23,958,HOSSAIN,Mousumi,356995505,,Pantalon Loulou noir T.34,OS - 14cm / Renforcer ourlet invisible,PAYÉ,16/01/24,19/01/24,,TRUE
+13/01/24,953,BARTHELEMY,Alice,356969022,,Pantalon Marino - Marine - 40,"Reprise de taille -4,5cm",OFFERT,16/01/24,19/01/24,,TRUE
+13/01/24,957,DA COSTA,Sara,356730003,,T-Shirt Conrad - Camel - S,Recoudre griffe de marque,OFFERT,16/01/24,19/01/24,,TRUE
+13/01/24,950,ROGUES,Marie,356440661,,Giacomo Sienne T40,"OO -1,5cm",PAYÉ,16/01/24,19/01/24,,TRUE
+13/01/24,946,MOREAU,Clarisse,356783255,,Auguste Noir T34,OO -9cm,PAYÉ,16/01/24,12/01/24,,TRUE
+13/01/24,981,MOREAU,Clarisse,355691213,,Loulou Rayures Tennis T34,OO -9cm,PAYÉ,16/01/24,19/01/24,,TRUE
+13/01/24,952,GARLOT,Elodie,355952471,,Pantalon Auguste - Noir - 38,OO - 4cm,OFFERT,16/01/24,19/01/24,,TRUE
+13/01/24,955,CHASTELLIER,Samantha,355532393,,Pantalon Davis - Ecru - 38,OO - 10cm,DOIT PAYER,16/01/24,19/01/24,,TRUE
+15/01/24,949,SALEN,Corinne,357016780,,Pantalon Marino - Sienne Velours - 36,OO -8cm,PAYÉ,16/01/24,19/01/24,,TRUE
+15/01/24,948,SIGNE,Thomas,356031934,,Pantalon Warren - Serge Foulée Gris - 38,Recoudre couture zip,OFFERT,16/01/24,19/01/24,,TRUE
+15/01/24,913,BARNAULT,Mathilde,356956521,,Combi Sky Bleu T34,Reprise bretelle -2cm,PAYÉ,16/01/24,12/01/24,,TRUE
+15/01/24,588,BONNARD,Valerie,356667693,,Pantalon Dan - Noir - 34,OO -10cm,PAYÉ,16/01/24,19/01/24,,TRUE
+15/01/24,587,FABRE,Audrey,356993186,,Pantalon Marino - Denim - 34,OO -3cm,PAYÉ,16/01/24,19/01/24,,TRUE
+15/01/24,916,HAZARD,Axelle,357022053,,Brut Sexy - Ecru - TALL - 31,OO -7cm,OFFERT,16/01/24,19/01/24,,TRUE
+15/01/24,589,KINAY,Ipek,357012994,,Combinaison Brooklyn Denim 32,OO -10cm,PAYÉ,16/01/24,23/01/24,,TRUE
+15/01/24,594,BONOMO,Natalie,357078921,,Pantalon Dan - Noir - 34,OO -6cm,PAYÉ,16/01/24,19/01/24,,TRUE
+15/01/24,593,BONOMO,Natalie,357078921,,Pantalon Dan - Camel - 34,OO -5cm,PAYÉ,16/01/24,19/01/24,,TRUE
+15/01/24,918,GUILBAUD,Lucie,357078699,,Pantalon Loulou - Noir - 36,OO -4cm,PAYÉ,16/01/24,19/01/24,,TRUE
+15/01/24,917,JLASSI,Mariem,357933086,,Pantalon Marino - Marine - 36,OO -10cm,PAYÉ,16/01/24,19/01/24,,TRUE
+15/01/24,592,DUVILLARD,Juliette-Marie,357021057,,Pantalon Marino - Denim - 34,OO -7cm,PAYÉ,16/01/24,19/01/24,,TRUE
+15/01/24,590,LABBE,Emma,357013326,,Pantalon Dan - Noir - 32,OO -12cm,PAYÉ,16/01/24,19/01/24,,TRUE
+15/01/24,915,MAYEUSE,Claire,357013083,,Pantalon Marino - Denim - 38,OO -8cm,PAYÉ,16/01/24,19/01/24,,TRUE
+15/01/24,976,OUAHIOUNE,Cytnhia,357082213,,Pantalon Damon - marine -34,"OO -5cm Fermeture taille -1,5cm",PAYÉ,16/01/24,19/01/24,,TRUE
+15/01/24,966,LEFER,Guillaume,/,,Manteau -34,Reccoudre bouton,OFFERT,16/01/24,19/01/24,,TRUE
+16/01/24,667,RINCON DE ARELLAND,Irène,356983832,,Pantalon  Martin Crop - Noisette - 34,"Reprise de taille -4,5cm",DOIT PAYER,16/01/24,30/01/24,,TRUE
+16/01/24,668,TRAULLE,Pauline,356312683,,Pantalon Marino - Marine - 46 + Veste Michele - Marine - 42,Changer zip pantalon + Recoudre bouton,OFFERT,16/01/24,19/01/24,,TRUE
+16/01/24,965,GREGOIRE,Lucile,356985660,,Pantalon Martin - Baby Blue - 34,"OO -6,5cm",PAYÉ,16/01/24,23/01/24,,TRUE
+16/01/24,669,BRUGIRARD,Fabien,356934286,,Pull Kyle - Kaki - M,Recoudre démaillage col,OFFERT,19/01/24,23/01/24,,TRUE
+16/01/24,962,BERGER,Opheliane,357091468,,Pantalon Droi Dan -34,Bas Simple -12cm,PAYÉ,19/01/24,23/01/24,,TRUE
+16/01/24,701,ALLEMAN,Estelle,357092097,,Pantalon Marino,Bas Simple -10cm,PAYÉ,19/01/24,23/01/24,,TRUE
+18/01/24,661,BOURMAUD,Elise,356542018,,Chemise Sandrine Vert T40,Réparer pression manche,OFFERT,19/01/24,02/02/24,,TRUE
+18/01/24,663,POIRAUD,Margaux,356138038,,Brut sexy bleu denim T.34,Reparer couture braguette,OFFERT,19/01/24,12/01/24,,TRUE
+19/01/24,596,METIER,Amandine,3571125598,,Pantalon Dan - Camel - 42,OO -4cm,PAYÉ,19/01/24,23/01/24,,TRUE
+19/01/24,595,METIER,Amandine,3571125598,,Pantalon Marino - Marine - 42,OO -4cm,PAYÉ,19/01/24,23/01/24,,TRUE
+19/01/24,597,Nicolas,Antoinette,357113289,,Pantalon Greg - Bleu Glacier - 36,OO -11cm,PAYÉ,19/01/24,23/01/24,,TRUE
+19/01/24,659,Sanchez,Gisela,357121688,,Damon ecru,OO -17cm,PAYÉ,19/01/24,23/01/24,,TRUE
+19/01/24,657,GAU,Samira,/,,Georgio / Bois de rose / T34,OO -6cm,DOIT PAYER,19/01/24,23/01/24,,TRUE
+19/01/24,658,GAU,Samira,/,,Malone / Fuschia / 34,OO -8cm,DOIT PAYER,19/01/24,23/01/24,,TRUE
+19/01/24,598,LEFEBVRE,Ondine,357121883,,Marino Marine,OO -7cm,PAYÉ,19/01/24,23/01/24,,TRUE
+19/01/24,599,FIANI,Géraldine,357121988,,Gustavo / Noir,OS - 5cm,PAYÉ,19/01/24,23/01/24,,TRUE
+19/01/24,654,Levy,Rebecca,357014847,,Combinaison Brooklyn  ,OO-6cm,PAYÉ,24/01/24,26/01/24,,TRUE
+20/01/24,653,Corchinoux,Anne-Claire,357084675,,Pantalon Dan Beige,OS -10cm,PAYÉ,24/01/24,26/01/24,,TRUE
+20/01/24,Remi Lietard,Artaut,Cloe,357131776,,Pantalon marino,OS -14cm,PAYÉ,24/01/24,26/01/24,,TRUE
+20/01/24,700,NALIN,Linda,,,Pantalon Marino Marine 36,OO -2cm,OFFERT,24/01/24,26/01/24,,TRUE
+20/01/24,651,KAY,Amanda,356957333,,Pantalon Rodriguo - Vert Bouteille - 38,"OO -4cm + Reprise de taile -3,5cm",PAYÉ,24/01/24,30/01/24,,TRUE
+20/01/24,703,Abolet,Vanessa,356953439,,Pantalon Martin,OO -9cm,OFFERT,24/01/24,12/01/24,,TRUE
+20/01/24,702,Abolet,Vanessa,356022439,,Pantalon Neil - Imprimé Merveille - 36,Refaire et renforfcer ourlet invisble + boutons,OFFERT,24/01/24,26/01/24,,TRUE
+20/01/24,704,Delvigne,Sarah,354604403,,Pull Amedee,Reccoudre deux points,OFFERT,24/01/24,14/06/24,relancé le 14/06,TRUE
+20/01/24,673,HONORE,Marie,13452614,,Pantalon Serge - Bleu denim foncé - 36,Réparer trou entrejambes,OFFERT,24/01/24,26/01/24,,TRUE
+20/01/24,672,HONORE,Marie,,,Pantalon martin pistache 36,Recoudre ourlet défait,OFFERT,24/01/24,26/01/24,,TRUE
+20/01/24,674,BOISSON,Camille,354529718,,Combinaison Anémone - Lilas - 40,Recouper proprement l'ourtlet,OFFERT,24/01/24,26/01/24,,TRUE
+20/01/24,675,MASSIE,Marie-Gabrielle,10768944,,Pantalon Loulou - Ficelle - 38,Recoudre/renforcer zip,OFFERT,24/01/24,26/01/24,,TRUE
+20/01/24,685,GUILLAUDIER,Marie,356935650,,Pantalon Dan Caramel,OO -11cm,DOIT PAYER,24/01/24,26/01/24,,TRUE
+22/01/24,828,DA SILVA,Audrey,357136787,,Pantalon Dan indigo T.34,OS - 8cm,PAYÉ,24/01/24,26/01/24,,TRUE
+22/01/24,829,CLARER,Julie,357160034,,Pantalon Marino Marine T.40,OS - 8cm,PAYÉ,24/01/24,26/01/24,,TRUE
+22/01/24,600,GAUTHIER,Marion,357136613,,Brut Sexy Bleu denim t.24,OO - 11cm,OFFERT,24/01/24,26/01/24,,TRUE
+22/01/24,832,DAMM,Alexia,357045301,,Jupe Tania Camel 36,Recoudre tissu zip,OFFERT,24/01/24,26/01/24,,TRUE
+23/01/24,830,EL FASSI,Aida,Vestiaire Equipe,,Marino Marine,OS -14cm,OFFERT,24/01/24,12/01/24,,TRUE
+23/01/24,833,AGUILLON,Caroline,357167839,,Matheo Ecru T36,OS -8cm,?,,12/01/24,,TRUE
+23/01/24,680,VERBEKE,Delphine,356920854,,Coussin vintage fleuri velours bleu,Réparer coupure,OFFERT,,12/01/24,,TRUE
+24/01/24,919,TARDIVO,LEA,356310394,,Gilet Emile Ecru T.S,Recoudre bouton + resserer les deix derniers,OFFERT,26/01/24,30/01/24,,TRUE
+25/01/24,749,Andriamady,Lova,357266483,,Danny Laine,OS -14cm,PAYÉ,26/01/24,30/01/24,,TRUE
+25/01/24,747,Castellini,Giula,357268510,,Pantalon Noir,"OS -6,5cm",PAYÉ,26/01/24,30/01/24,,TRUE
+25/01/24,748,Castellini,Giula,357268510,,Pantalon Gris mouchete,OS- 9cm,PAYÉ,26/01/24,30/01/24,,TRUE
+25/01/24,744,THIERRY,Anne-Lise,357147964,,Loulou Noir 34,OS -6cm,PAYÉ,26/01/24,30/01/24,,TRUE
+25/01/24,745,CHANTALAT,Mathilde,BM,,Manteau Octobre PETER,Réparer pression manche D,OFFERT,26/01/24,12/01/24,,TRUE
+26/01/24,743,LEFEBVRE,Ondine,35727784,,Le 70's,"OS -6,5cm",PAYÉ,26/01/24,30/01/24,,TRUE
+26/01/24,742,Laprevote,Celine,357278370,,Pantalon Gustavo marine,"OO- 5,2cm",PAYÉ,26/01/24,30/01/24,,TRUE
+26/01/24,834,GRENOT,Rizlene,?,,MArtin MArine,OO -3cm,OFFERT,26/01/24,30/01/24,,TRUE
+26/01/24,835,LEBEL,Caroline,357232165,,Dan Indigo T36,OS -5cm,PAYÉ,26/01/24,30/01/24,,TRUE
+26/01/24,836,GASCON,Tiphaine,357268223,,Marino Denim T34,"OS -8,5cm",?,26/01/24,30/01/24,,TRUE
+26/01/24,837,DOR,Chloé,?,,Martin Baby Blue,"OS -5,5cm",?,26/01/24,30/01/24,,TRUE
+26/01/24,879,MONNARD,Sandrine,357278662,,Pantalon Tyler Poudre T36,"OS -9,5cm",OFFERT,26/01/24,30/01/24,,TRUE
+26/01/24,741,RUSJAN,Sarah,357090020,,Martin Marine 46,"OO -6,5cm",PAYÉ,26/01/24,30/01/24,,TRUE
+26/01/24,740,DE LA HARPE,Bergamotte,2566359,,Pull Nicky Noir TM,Poser collant sur démaillage,OFFERT,26/01/24,12/01/24,,TRUE
+26/01/24,739,ANIEZ,Bertille,INTERNE,,Pantalon Damon noir,"Fermer taille -2,5cm",OFFERT,30/01/24,12/01/24,,TRUE
+27/01/24,735,MASQUIN,Florence,355434018,,Pantalon Martin,Refaire ourlet + renforcer,OFFERT,30/01/24,02/02/24,,TRUE
+27/01/24,731,GUENOT,Maud,356727947,,Pantalon  Baptisto - Garden Flowers - 42,Changer zip,OFFERT,30/01/24,02/02/24,,TRUE
+27/01/24,729,SINGER,Manon,357289643,,Pantalon Dan Camel,Ourlet +2cm,PAYÉ,30/01/24,02/02/24,,TRUE
+27/01/24,732,KANKO,Brigitte,357188297,,Pantalon Florentino - Taupe Chiné - 44,OO -15cm,DOIT PAYER,30/01/24,02/02/24,,TRUE
+27/01/24,728,GAUTHIER ,Léa,354401355,,Jupe Dilo - Seventies - 34,Ourlet bas de jupe -13cm,PAYÉ,30/01/24,02/02/24,,TRUE
+27/01/24,730,CAMPANA,Natacha,357181860,,Pantalon Martin Garden,"OO-8,5cm",PAYÉ,30/01/24,02/02/24,,TRUE
+27/01/24,719,JAEYER,Camille,355678091,,Crop / Ecru Chiné / 38,Changer Zip,OFFERT,30/01/24,02/02/24,,TRUE
+29/01/24,721,PALANDJIAN,Elsa,356871173,,Robe ,Renforcer toutes les coutures,OFFERT,30/01/24,02/02/24,,TRUE
+29/01/24,698,,,,,,,,,12/01/24,,TRUE
+29/01/24,724,LAVALÉE,Margot,356175899,,Betty Corail,Renforcer couture,OFFERT,30/01/24,02/02/24,,TRUE
+29/01/24,723,LIQUARD,Allison,356893544,,Veste Christie Velours Marine 38,"Ourlet bas de manche veste -2,2cm",PAYÉ,30/01/24,02/02/24,,TRUE
+29/01/24,698,BARNAULT,Mathilde,/,,combi Sky Bleue 34,Reprise bretelles (D= -5cm / G= -9cm),OFFERT,30/01/24,12/01/24,,TRUE
+29/01/24,880,BOY,Carole,357283467,,Pantalon Greg Bleu T34,OS -11cm,PAYÉ,30/01/24,02/02/24,,TRUE
+29/01/24,838,MILLET,Maud,357288535,,Pantalon Martin Baby Blue 36,OS -10cm,PAYÉ,30/01/24,02/02/24,,TRUE
+29/01/24,839,MARCHAND,Chloé,357291961,,Pantalon Martin Baby Blue 42,OS -3cm,DOIT PAYER,30/01/24,02/02/24,,TRUE
+29/01/24,840,PARGNY-DEPRÉ,Dorothée,357293825,,Brut Sexy Indigo Tall 30,OO -12cm,OFFERT,30/01/24,02/02/24,,TRUE
+29/01/24,841,KUNG,Claire,357294289,,Pantalon Marino Marine,OS -20cm,PAYÉ,30/01/24,02/02/24,,TRUE
+29/01/24,842,LE MIGNOT,Maëlle,357294572,,Pantalon Georgio Rose,OS -15cm,PAYÉ,30/01/24,02/02/24,,TRUE
+29/01/24,843,SENTILHES,Colombe,357295455,,Marino Denim 42,"OS -8,5cm",PAYÉ,30/01/24,02/02/24,,TRUE
+30/01/24,715,SIFFERT,Catherine,356138167,,Madeline Marine S,Recoudre aisselle G,OFFERT,,06/02/24,,TRUE
+30/01/24,711,FRIED,Sylvie,357152926,,Pantalon Martin - Marine - 36,OO -8cm,PAYÉ,02/02/24,06/02/24,,TRUE
+30/01/24,712,LADOUCH,Julie,357329311,,Combinaison Brooklyn - Kaki - 34,OO -5cm,PAYÉ,02/02/24,06/02/24,,TRUE
+30/01/24,709,HUMBERT,Anaïs,357211954,,Pull Dita / Fuschia,Rentrer fil tiré,OFFERT,02/02/24,06/02/24,,TRUE
+31/01/24,844,AUBERT,Astrid,357326733,,Pantalon Martin marine T.36,OS -9cm,PAYÉ,02/02/24,06/02/24,,TRUE
+31/01/24,707,LAROUSSE,Camille,357295762,,Pantalon Loulou - Noir - 36,"OO -8,2cm",DOIT PAYER,02/02/24,06/02/24,,TRUE
+31/01/24,708,ALI BENALI,Yasmine,356824977,,Pantalon Damon - Marine - 36,Refaire et consolider ourlet invisible,OFFERT,02/02/24,06/02/24,,TRUE
+31/01/24,683,IBRAHIM,Sheherazade,357201055,,Combinaison Roby - Camel - 36,OO -4cm,DOIT PAYER,02/02/24,06/02/24,,TRUE
+01/02/24,687,Andriamady,Lova,357266483,,Danny Laine,OS -6cm,OFFERT,02/02/24,06/02/24,,TRUE
+01/02/24,689,BABY,Stéphanie,355603192,,Gilet Madeline - Marine - S,Recoudre arrière bras gauche,OFFERT,02/02/24,06/02/24,,TRUE
+01/02/24,690,BOUCHON,Agathe,en attente,,Pull ancien camel T.S,Coudes + trou dos,OFFERT,02/02/24,22/03/24,,TRUE
+01/02/24,599,JIMENEZ,Joy,357354173,,Pantalon Dan Baby blue T.36,"OS -19,5cm",PAYÉ,02/02/24,06/02/24,,TRUE
+01/02/24,598,KOSTOVA,Svetoslava,357193348,,Pantalon Tommy T.36,"OO -13,5cm",PAYÉ,02/02/24,06/02/24,,TRUE
+01/02/24,845,RENAUD,Emmanuelle,357344022,,Marino Denim 34,OO - 8cm,PAYÉ,02/02/24,06/02/24,,TRUE
+01/02/24,846,LE GALL,Sarah,357321776,,Combinaison Julie T.36,OS - 14cm,PAYÉ,02/02/24,06/02/24,,TRUE
+01/02/24,881,MERLANT ,Solene,357341457,,Pantalon Marino T.34,OO -8cm,PAYÉ,,06/02/24,,TRUE
+02/02/24,851,AMIEZ,Bertille,357365969,,Chemise Chlo - Carreaux Rose Vert - 36,Reprise manche - 6cm,OFFERT,06/02/24,13/02/24,,TRUE
+03/02/24,578,BODELU,Julie,/,,Dan Baby Blue 42,OO -9cm,PAYÉ,06/02/24,09/02/24,,TRUE
+03/02/24,579,BODELU,Julie,356230459,,Dan Velours Noir 42,"OS -8,5cm",PAYÉ,06/02/24,09/02/24,,TRUE
+03/02/24,696,SIGNORET,Alexandra,357039754,,Veste Carlo Carreaux,Doublure poches,OFFERT,06/02/24,16/02/24,,TRUE
+03/02/24,694,HELLOT,Jennifer,357366904,,Pantalon Martin - Baby Blue - 34,OO -6cm,PAYÉ,06/02/24,09/02/24,,TRUE
+03/02/24,576,de Molliens,Pauline,357368508,,Bas Pantalon (le parisien marine),"OO -10,5cm",PAYÉ,06/02/24,09/02/24,,TRUE
+03/02/24,582,croze,anaelle,357149275,,chuck camel T34,OO - 6cm,PAYÉ,06/02/24,09/02/24,,TRUE
+03/02/24,584,ZITOUNI,Linda,/,,Pantalon MArtin Marine T.36,"OO -6,5cm",PAYÉ,06/02/24,09/02/24,,TRUE
+03/02/24,698,MESBAHI,Asmae,355108142,,Pantalon Emilio noir,Reprise taille -6cm,PAYÉ,06/02/24,09/02/24,,TRUE
+03/02/24,583,MARTIN GRANGE,Maud,357198484,,Robe Erell,Manche droite déchirée à reprendre,OFFERT,06/02/24,09/02/24,,TRUE
+03/02/24,582,CROZE,Anelle,357149275,,Pantalon Chuck,OO -6cm,,06/02/24,12/01/24,,TRUE
+03/02/24,585,Tachet,Charlotte,7041092,,Bowling Bag mat,ZIP,OFFERT,06/02/24,09/02/24,,TRUE
+05/02/24,589,Le Lay,Elodie,357179582,,Pantalon Tommy denim t.34,OO -10 cm + Reprise de taille,Offert,06/02/24,13/02/24,,TRUE
+05/02/24,590,Chereau,Oriane,357423434,,Pantalon Dan noir t 38,"Reprise taille -4,5cm",PAYÉ,06/02/24,09/02/24,,TRUE
+05/02/24,591,Chereau ,Oriane,357423434,,Pantalon Dan chocolat t 38,"Reprise taille -4,5cm",PAYÉ,06/02/24,12/01/24,,TRUE
+05/02/24,588,Gau,Samira,357338247,,pantalon Christian petites roses t 34,OO -12 cm,PAYÉ,06/02/24,13/02/24,,TRUE
+05/02/24,586,Gau,Samira,357338247,,pantalon Chuck bouquet London,OO -7cm,PAYÉ,06/02/24,09/02/24,,TRUE
+05/02/24,587,Gau,Samira,357338247,,pantalon Chuck Lilas t34,00 -8cm,PAYÉ,06/02/24,09/02/24,,TRUE
+05/02/24,592,DARBOE BARBERO,Maria,357185259,,Pantalon Jones - Indigo - 46,OO -10cm,PAYÉ,06/02/24,09/02/24,,TRUE
+06/02/24,600,LISOVSKAYA,Anna,357365141,,Pantalon Greg - Bleu Glacier - 34,"OO -4,5cm",PAYÉ,06/02/24,09/02/24,,TRUE
+06/02/24,595,LISCOUET PETIT,Marie-Solène,357288807,,Veste Christie - Noir - 38,Reprise de manche -4cm,??,06/02/24,09/02/24,,TRUE
+06/02/24,847,ESTEVE,Raphaelle,357291421,,Pantalon Dan - Noir - 36,OO -4cm,PAYÉ,06/02/24,09/02/24,,TRUE
+06/02/24,848,BERTIN,Liane,357374538,,Pantalon Dan - Baby Blue - 38,OO -4cm,PAYÉ,06/02/24,09/02/24,,TRUE
+06/02/24,849 + 850,SCHUCHMANN,Camille,357376515,,Pantalon Matheo - Ecru - 34,OO -18cm + Reprise taille -2cm,PAYÉ,06/02/24,09/02/24,,TRUE
+06/02/24,853,LACROIX,Morgane,357354394,,Pantalon Tommy - Denim - 36,OO -15cm ourlet a l'identique,PAYÉ,09/02/24,13/02/24,,TRUE
+06/02/24,598,PLESSY,Mélissa,357175044,,Pantalon Lukas - Marine - 36,OO -6cm ourlet a l'identique,PAYÉ,09/02/24,13/02/24,,TRUE
+06/02/24,597,PLESSY,Mélissa,357175044,,Pantalon Florentino - Taupe Chiné - 36,OO -7cm,OFFERT,09/02/24,12/01/24,,TRUE
+06/02/24,852,SCHWAB,Julie,13540850,,brut sexy-Bleach-27,Reprise taille -4 cm,PAYÉ,09/02/24,13/02/24,,TRUE
+06/02/24,599,SCHWAB,Julie,356766043,,Pantalon Emilio-Ecru-36,Reprise taille -5 cm,PAYÉ,09/02/24,13/02/24,,TRUE
+06/02/24,687,ZITTEL,Melanie,355822152,,Pantalon Dan baby blue T.34,"OO -4,5 cm",PAYÉ,09/02/24,13/02/24,,TRUE
+06/02/24,686,ZITTEL,Melanie,357277018,,Pantalon Marin Ecru T.36 (archives),"OS -5,5 cm",PAYÉ,09/02/24,13/02/24,,TRUE
+06/02/24,685,OHAYON,Laetitia,357433303,,Pantalon Marino marine T.42,OS - 11cm,PAYÉ,09/02/24,13/02/24,,TRUE
+07/02/24,920,NASR,Rana,357228985,,Pantalon Tommy T.38,"OO -10 cm + Reprise de taille 0,5 cm de chaque côté",PAYÉ,09/02/24,13/02/24,,TRUE
+07/02/24,921,PUDERBEUTEL,Francoise,357448216,,Pantalon Loulou rayures tennis T.40,OS - 6cm,PAYÉ,09/02/24,13/02/24,,TRUE
+07/02/24,859,PUDERBEUTEL,Francoise,11864027,,Pantalon Louis Carreaux Lnd,Changer zip,OFFERT,09/02/24,13/02/24,,TRUE
+07/02/24,854,BERGER,Opheliane,357390185,,le new brut sexy t. 34,OO -4cm,PAYÉ,09/02/24,13/02/24,,TRUE
+07/02/24,855,MASSE,Caroline,354927030,,Brut sexy t.32 bleu denim,recoudre couture braguette,OFFERT,09/02/24,13/02/24,,TRUE
+08/02/24,695,ANGULO,Diana,357327914,,Combinaison Phedre kaki T34 ,OO -14cm,DOIT PAYER,09/02/24,13/02/24,,TRUE
+08/02/24,856,RIVIERE,Lucile,13753728,,Pantalon Le 70's - Denim Rayé - 40,OO -8cm,PAYÉ,09/02/24,13/02/24,,TRUE
+08/02/24,530,RIVIERE,Lucile,12875789,,Pantalon Le 70's - Indigo - 40,"OO -12,5cm",PAYÉ,09/02/24,13/02/24,,TRUE
+08/02/24,532,GUILLOUET,Chloé,357395843,,Pantalon Loulou - Noir - 36,OO -8cm,PAYÉ,09/02/24,13/02/24,,TRUE
+08/02/24,531,AUBERT,Astrid,357326789,,Pantalon Dan - Noir - 36,OO -9cm,PAYÉ,09/02/24,13/02/24,,TRUE
+09/02/24,923,GIL,Ana Sofia,staff,,Pantalon Aurelien Chamapgne 36,OO - 8cm,OFFERT,09/02/24,12/01/24,,TRUE
+09/02/24,690,AUGERAUD,Alia,357464336,,Pantalon Marino Denim 38,OO -6cm,PAYÉ,09/02/24,13/02/24,,TRUE
+09/02/24,689,Kwiatkowska,Emilia,357462512,,Pantalon Auguste - Noir - 34,OO - 8cm,PAYÉ,09/02/24,13/02/24,,TRUE
+09/02/24,688,BESSEDE,Claire,357461400,,Pantalon Martin - Baby Blue - 44,OO -9cm,PAYÉ,09/02/24,13/02/24,,TRUE
+09/02/24,694,PACAUD,Romy,357465400,,Pantalon Greg - Bleu Glacier - 34,OO -7cm,PAYÉ,09/02/24,13/02/24,,TRUE
+09/02/24,695,BURBAN,Évane,357471697,,Pantalon Dan camel T.38,"OS -1,5cm",OFFERT,09/02/24,13/02/24,,TRUE
+09/02/24,693,PACAUD,Romy,357465552,,Pantalon Marino Marine 34,OS -7cm,?,09/02/24,13/02/24,,TRUE
+09/02/24,691,KARDOUS,Tien,?,,Pantalon Martin curry 34,"OS -6,5cm",?,09/02/24,13/02/24,,TRUE
+09/02/24,692,KARDOUS,Tien,?,,Pantalon Enzo 34,OS -10cm,?,09/02/24,13/02/24,,TRUE
+09/02/24,922,MALDJIAN,Stephanie,?,,Combi Brooklyn 36,OO -12cm,?,09/02/24,13/02/24,,TRUE
+02/02/24,577,GATIER,Lucile,357134751,,Pantalon Dan - Baby Blue - 36,renforcer boutons proches + braguette,OFFERT,09/02/24,09/02/24,,TRUE
+10/02/24,861,GUIROUARD-AIZEE,Maéva,357327000,,Pantalon Martin - Marine - 36,"OO -4,5cm",PAYÉ,13/02/24,16/02/24,,TRUE
+10/02/24,862,CLEMENCON,Géraldine,/,,Loulou noir 34,refaire et renforcer ourlet invisible,PAYÉ,13/02/24,16/02/24,,TRUE
+10/02/24,866,EMILE,Chloé,357099159,,Pantalon Dan Caramel 42,OO -13cm,PAYÉ,13/02/24,16/02/24,,TRUE
+10/02/24,864,FORTIN,Cassandre,35705010,,Chuck 36,OO -7cm,PAYÉ,13/02/24,16/02/24,,TRUE
+10/02/24,868,Cancel ,Camille,355563296,,damon gris T34,doublure interieur a racoudre,OFFERT,13/02/24,16/02/24,,TRUE
+12/02/24,869,Martinet,Laurence,356907062,,Gaspard / Orchidé / XS,Trou à remailler,OFFERT,13/02/24,16/02/24,,TRUE
+12/02/24,696,LEGUERN,Julie,357481387,,Pantalon Dan T.34 camel,OS - 7cm,PAYÉ,13/02/24,16/02/24,,TRUE
+12/02/24,864,DUBROCA,Lise,357436863,,Pantalon Marino marine T.34,OS - 7 cm,PAYÉ,13/02/24,16/02/24,,TRUE
+12/02/24,882,FERAUDET,Ilona,11547493,,Manteau Johnson Sable T.36,Recoudre boutons,OFFERT,13/02/24,20/02/24,,TRUE
+12/02/24,924,MALAKHIA,Cécile,357482178,,Pantalon Dan Camel T.38,"OS - 4,5 cm",PAYÉ,13/02/24,16/02/24,,TRUE
+12/02/24,870,GALANTI,EMMA,357105835,,Pantlon dan indigo,recoudre bouton et renforcer,OFFERT,13/02/24,16/02/24,,TRUE
+13/02/24,872,SUAREZ,Cristina,357455055,,Pantalon Le 70's - Ecru - 38,OO -10cm,PAYÉ,13/02/24,16/02/24,,TRUE
+13/02/24,874,LE FLOCH,Margaux,5062164,,Blouse Bacall - Écru. - 34,Recoudre tout les boutons 10pcs,OFFERT,13/02/24,20/02/24,,TRUE
+13/02/24,875,REITHERMAN,Camilla,357197691,,Manteau Johnson - Sable - 36,Recoudre bouton,OFFERT,16/02/24,20/02/24,,TRUE
+13/02/24,876,ZOUGANELI,Anna,2380083,,Pull Sienna - Gris Chiné Clair - XS,Remailler,OFFERT,16/02/24,20/02/24,,TRUE
+13/02/24,877,ZOUGANELI,Anna,13936410,,Brut Sexy - Denim - 26,"OO -8,5cm",PAYÉ,16/02/24,20/02/24,,TRUE
+13/02/24,878,LAVAL,Marjorie,357507411,,Pantalon Dan - Noir - 34,OO -7cm,PAYÉ,16/02/24,20/02/24,,TRUE
+14/02/24,882,FERRI-MIRAGLIA,Marion,357378950,,Pantalon Marino - Marine - 34,OO -12cm,DOIT PAYER,16/02/24,20/02/24,,TRUE
+14/02/24,881,TRAULLE,Pauline,357306972,,Pantalon Marino - Sienne Velours - 46,Recoudre boutons,OFFERT,16/02/24,20/02/24,,TRUE
+14/02/24,844,JURADO,Caroline,357561522,,Pantalon Greg bleu T.36,"OO - 6,5 cm",PAYÉ,16/02/24,20/02/24,,TRUE
+14/02/24,697,MOUSSA,Sophie,357517803,,Slim Parfait Tall T.25,OO -7cm,OFFERT,16/02/24,20/02/24,,TRUE
+14/02/24,883,SCIAMMARELLA,Sila,357517428,,BRUT SEXY indigo T.24,OO - 6cm,OFFERT,16/02/24,20/02/24,,TRUE
+16/02/24,887,DROBERT,Marie-Laure,200523659,,Pull Chuck bleu ardoise,arranger trous bas,OFFERT,/,12/01/24,,TRUE
+16/02/24,886,DROBERT,Marie-Laure,200797353,,Pull Fergis Rosille XS,Réparer trous coudes,OFFERT,/,23/02/24,,TRUE
+16/02/24,885,PEHU,Coralie,355696974,,Chuck / Camel / 34,OO -2cm,PAYÉ,/,23/02/24,,TRUE
+16/02/24,888,Martin,Marina,357541220,,Blouse Annelise 34,Recoudre bouton,OFFERT,/,23/02/24,,TRUE
+17/02/24,897,GREFFET,Lara,11907660,,Harper Noir ,Recoudre boutons + étiquette,OFFERT,/,23/02/24,,TRUE
+17/02/24,890,GREFFET,Lara,357080563,,Loulou Terre 38,Rallonger ourlets au max,DOIT PAYER,/,23/02/24,,TRUE
+19/02/24,900,CROULARD,Léa,357566293,,Martin  / Garden / 36,"OO -6,5cm",DOIT PAYER,/,23/02/24,Mme n'a pas pris son ticket,TRUE
+19/02/24,535,ELMAN,Emma,357547243,,Combi Juliette,"OO -9,5cm",DOIT PAYER,/,23/02/24,,TRUE
+20/02/24,700,MENDRET,Inès,357586408,,Pantalon Le Wide Leg - Bleu Clair - 34,OO -7cm,PAYÉ,20/02/24,23/02/24,,TRUE
+20/02/24,698,LEMAIRE,Aurélie,357598040,,Pantalon Dan - Indigo - 38,OO -5cm,PAYÉ,20/02/24,12/01/24,,TRUE
+20/02/24,699,GEORGES,Léna,357600748,,Pantalon Dan - Baby Blue - 38,OO -2cm,PAYÉ,20/02/24,23/02/24,,TRUE
+20/02/24,846,NOTAT,Marie,357610137,,Pantalon Chuck - Camel - 38,Reprise de taille -2cm,PAYÉ,20/02/24,23/02/24,,TRUE
+20/02/24,848,MARIMOUTTOU,Marilym,357612914,,OS -7cm,OO -7cm,PAYÉ,20/02/24,23/02/24,,TRUE
+22/02/24,539,CROZE,Anaelle,356845954,,Pantalon Chuck - Navy - 34,"OO -6,5cm",PAYÉ,23/02/24,12/01/24,,TRUE
+22/02/24,542,PIERRE,Nathalie,357569780,,Pantalon Tommy - Denim - 34,"OO -9,5cm",PAYÉ,23/02/24,12/01/24,,TRUE
+22/02/24,925,LEMAIRE,Elodie,357684686,,Pantalon Dan camel T.34,OS -10cm + reprise taille -4 cm,PAYÉ,23/02/24,12/01/24,,TRUE
+22/02/24,926,LEMAIRE,,357684686,,Pantalon Martin crop noisette t.34,Reprise taille -4cm,OFFERT,23/02/24,12/01/24,,TRUE
+23/02/24,544,Huseinali,Sarah,357691787,,Pantalon Auguste noir t40,"OO -8,5 cm",Payé,/,01/03/24,,TRUE
+23/02/24,545,Huseinali,Sarah,357691787,,Pantalon Loulou noit T40,OO-6cm,PAYÉ,/,01/03/24,,TRUE
+20/02/24,550,CAER,Marie,  ,,Veste Michele gris chiné,griffe + étiquette taille,OFFERT,20/02/24,23/02/24,,TRUE
+19/02/24,899,GANDY,Solène,357147865,,Dan noir T34,OO -10cm,PAYÉ,20/02/24,23/02/24,,TRUE
+17/02/24,847,FELDMAN,Léa,357761830,,Brooklyn,OO -14cm,PAYÉ,/,23/02/24,,TRUE
+23/02/24,903,OSTRIKOVA,Iliua,10136528,,Chemise Eva / Ecru chiné / 36,Réparer pression,OFFERT,/,05/03/24,,TRUE
+23/02/24,902,Xu,Jingsi,357573065,,Pantalon Franklin,OO -9Cm,PAYÉ,/,01/03/24,,TRUE
+24/02/24,907,RUSSE,JOSEPHA,356012096,,robe harper tilleul,recoudre col ,OFFERT,/,01/03/24,,TRUE
+24/02/24,934,martin grange,maud,357198484,,robe errell,manche droite a reprendre,OFFERT,/,01/03/24,,TRUE
+24/02/24,929,CAO,LEA,356216089,,BRUT SEXY,OEILLET POCHE DROITE,OFFERT,/,05/03/24,,TRUE
+29/01/24,933,BOY,Carole,357283467,,Pantalon Greg Bleu T34,refairer ourlet longueur jambe droite + pli couture jambe droite,PAYÉ,16/03/24,01/03/24,Renvoyé deux fois pour asymétrie d'ourlet,TRUE
+26/02/24,932,GAU,Samira,357004258,,Pantalon Georgio - Bois De Rose - 34,Refaire ourlet invisible,DOIT PAYER,27/02/24,01/03/24,,TRUE
+26/02/24,927,SUSLOVA,Anastasia,357692821,,Pantalon Dan - Noir - 34,OO - 10cm,PAYÉ,27/02/24,01/03/24,,TRUE
+26/02/24,929,MOULIN,Inès,357544775,,Pantalon Dan - Bleu ardoise velours - 34,OO -4cm,PAYÉ,27/02/24,01/03/24,,TRUE
+26/02/24,930,BARBIER,Mélanie,357703193,,Pantalon Martin - Marine - 38,OO -15cm + reprise taille -8cm,PAYÉ,27/02/24,01/03/24,,TRUE
+26/02/24,931,RUIDANT,Olivia,357704580,,Pantalon Matheo - Ecru - 36,Reprise de taille-1cm,PAYÉ,27/02/24,01/03/24,,TRUE
+26/02/24,932,VANDERVALLE,Marine,357706314,,Pantalon Loulou - Bleu Orage - 36,OO -10cm,PAYÉ,27/02/24,01/03/24,,TRUE
+26/02/24,933,KOBEISSI,Julia,357708523,,Pantalon Greg - Bleu Glacier - 34,OO -10cm,PAYÉ,27/02/24,01/03/24,,TRUE
+26/02/24,928,KATOCH,Ellee,356781475,,Veste Kalvin - Écru - 34,"ourlet manche -5,5cm",PAYÉ,27/02/24,01/03/24,,TRUE
+27/02/24,931,DEGAUD,CAMILLE,10733476,,pantalon gustavo T36,doublure pantalon a refaire,DOIT PAYER,/,05/03/24,,TRUE
+28/02/24,927,MERCIER,Isa,356721736,,Slim Parfait - Denim - 24,renforcer et recoudre trou poche arrière droit,OFFERT,01/03/24,05/03/24,,TRUE
+28/02/24,926,NOUGUE-SANS,Christine,3299946,,Veste Will Cuir - Sable - M,Recoudre couture fond de poche gauche,OFFERT,01/03/24,05/03/24,,TRUE
+29/02/24,908,ELHOSS,Sara,357748371,,Pantalon Marino - Noir - 36,"OO -10,5cm",PAYÉ,01/03/24,05/03/24,,TRUE
+01/03/24,912,BONNEMAISON,Sarah,/,,Gilet Gaspard Sauge S,Recoudre bouton,OFFERT,05/03/24,11/03/24,,TRUE
+01/03/24,911,ROUBAUD,Lisa,8857399,,Manteau Johnson - Marine - 36,Recoudre bouton,OFFERT,05/03/24,11/03/24,,TRUE
+01/03/24,913,BONTEMPS,LESLIE,357314886,,Pantalon dan T36,"OO - 5,7 cm",PAYÉ,05/03/24,08/03/24,,TRUE
+01/03/24,915,LAUREAUX,Marie-Charlotte,357768316,,Pantalon Loulou - Bleu Orage - 38,OO -18cm,PAYÉ,05/03/24,08/03/24,,TRUE
+02/03/24,916,GATINEAU,Julie,357258814,,Blouse Emma - Broderie Ecru Fond Noir - 46,Recoudre bouton,OFFERT,05/03/24,11/03/24,,TRUE
+02/03/24,917,DESCHILDT,Adèle,357833396,,Pantalon Jones - Indigo - 34,"OO -13,5cm",PAYÉ,05/03/24,08/03/24,,TRUE
+02/03/24,918,BELHOCINE,Merryl,357584870,,Pantalon Rodriguo - Rayures Tennis Ecru Vert - 46,"OO- 11,5cm",PAYÉ,05/03/24,08/03/24,,TRUE
+02/03/24,920,MARTINS,Marina,357716300,,Top Lydia - Roses Rouges Crème - XS,Recoudre élastique,OFFERT,05/03/24,11/03/24,,TRUE
+02/03/24,548,DESFARGES,Diane,357770613,,Robe Raquel - Kaki - 40,Recoudre couture ceinture,OFFERT,05/03/24,11/03/24,,TRUE
+02/03/24,952,NISOL,Alexia,357788727,,Pantalon  Martin Crop - Noisette - 34,OO - 7cm,PAYÉ,05/03/24,08/03/24,,TRUE
+02/03/24,951,CHHOUR,Samantha,357291001,,Manteau Johnson - Sable - 36,Recoudre bouton,OFFERT,05/03/24,11/03/24,,TRUE
+04/03/24,547,DIAKHATE,Fama,357716770,,Pantalon Le Wide Leg - Bleu Clair - 38,OO -4cm,PAYÉ,05/03/24,08/03/24,,TRUE
+04/03/24,905,MURAULT,Marie,13002708,,Pantalon Lukas - Bronze - 36,"OO -6,5cm",PAYÉ,05/03/24,08/03/24,,TRUE
+04/03/24,921,MURAULT,Marie,13002708,,Pantalon Jones - Écru. - 36,"OO -4,5cm",PAYÉ,05/03/24,08/03/24,,TRUE
+04/03/24,546,MURAULT,Marie,355340122,,Pantalon Damon - Gris Chiné - 36,Recoudre poche (fermer par une couture),PAYÉ,05/03/24,08/03/24,,TRUE
+04/03/24,904,MURAULT,Marie,357837463,,Pantalon Marino - Marine - 38,"OO -4,5cm",PAYÉ,05/03/24,08/03/24,,TRUE
+04/03/24,888,DEVANEY,Rebeca,357823319,,Pantalon Tyler - Frise Florale - 42,OO -6cm,PAYÉ,05/03/24,08/03/24,,TRUE
+04/03/24,889,HAREL,Candice,357824837,,Pantalon Marino - Ecru - 40,OO -9cm,PAYÉ,05/03/24,08/03/24,,TRUE
+04/03/24,936,TOUSSAINT,Emilie,357825352,,Pantalon Martin - Baby Blue - 38,OO -4cm,PAYÉ,05/03/24,08/03/24,,TRUE
+04/03/24,937,GOUVERNET,Cédric,357826344,,Pantalon Greg - Bleu Glacier - 34,OO -8cm,DOIT PAYER,05/03/24,08/03/24,,TRUE
+04/03/24,938,MARTINS,Fanny,357832713,,Pantalon Marino - Marine - 36,"OO -6,5cm",PAYÉ,05/03/24,08/03/24,,TRUE
+04/03/24,940,AUBRON,Myriam,357833123,,Pantalon Matheo - Safran - 36,OO -11cm,PAYÉ,05/03/24,18/03/24,,TRUE
+04/03/24,939,WIDIEZ,Gaëlle,357833191,,Pantalon Loulou - Bleu Orage - 34,OO -12cm,PAYÉ,05/03/24,08/03/24,,TRUE
+04/03/24,941,DUCELIER,Régine,357834798,,Pantalon Matheo - Safran - 40,OO -8cm,PAYÉ,05/03/24,08/03/24,,TRUE
+04/03/24,942,ROUAULT,Laura,357837910,,Pantalon Dan - Noir - 34,OO -12cm,PAYÉ,05/03/24,08/03/24,,TRUE
+04/03/24,943,HENOCH,Marie-Christine,357838018,,Pantalon Matheo - Safran - 38,"OO -14,5cm",PAYÉ,05/03/24,08/03/24,,TRUE
+04/03/24,944,KHALIFE,Celine,357838681,,Pantalon Matheo - Safran - 36,OO -4cm,PAYÉ,05/03/24,08/03/24,,TRUE
+04/03/24,890,KRUG,Eugénie,357840537,,Pantalon Dan - Noir - 34,OO -9cm,PAYÉ,05/03/24,08/03/24,,TRUE
+04/03/24,884,DUMARGNE,Garence,357790359,,Pantalon Dan - Baby Blue - 34,OO -10cm,PAYÉ,05/03/24,08/03/24,,TRUE
+04/03/24,886,DE BELDER,Theresa,357804328,,Brut Sexy - Bleu Denim - 34,OO -7cm,PAYÉ,05/03/24,08/03/24,,TRUE
+04/03/24,934,,,357805840,,,,PAYÉ,05/03/24,08/03/24,,TRUE
+04/03/24,935,SALMON,Josiane,357807098,,Robe Tilda - Multico Lurex - S,Reprise bretelle -6cm,PAYÉ,05/03/24,08/03/24,,TRUE
+04/03/24,887,DE FOUCAUCOURT,Aurélia,357390585,,Pantalon Le Wide Leg - Bleu Clair - 36,OO -9cm,PAYÉ,05/03/24,08/03/24,,TRUE
+04/03/24,885,TRABELSI,Yousra,356571073,,Pantalon Matheo - Beige Chiné - 34,OO -4cm + Reprise traille -2cm,PAYÉ,05/03/24,12/03/24,,TRUE
+04/03/24,STAFF,STAFF,Yaya,357806369,,"Pantalon Greg
+Brique - 40",OO - 7cm,PAYÉ,05/03/24,08/03/24,,TRUE
+04/03/24,936,LUCE,Annabelle,354852727,,Brut Sexy - Bleu Denim - TALL - 29,Réparer trous poches arrière,OFFERT,05/03/24,08/03/24,,TRUE
+05/03/24,938,JONES,Chloe,357740203,,Pantalon Tyler - Adana Maxi - 34,OO -16cm,PAYÉ,05/03/24,08/03/24,,TRUE
+05/03/24,937,COLLARD,Thomas,354560343,,Pantalon Carl - Beige - 40,REcoudre zip invisible + Bouton intérieur,OFFERT,05/03/24,08/03/24,,TRUE
+05/03/24,934,AUGUSTYN,Maja,357805840,,Pantalon Rodriguo - Rayures Tennis Ecru Vert - 38,OO -5cm + Reprise taille -3cm,PAYÉ,05/03/24,12/03/24,,TRUE
+05/03/24,945,SOARES,Elodie,STAFF,,Pantalon Tyler - frise florale T.34,OS - 13 cm,OFFERT,05/03/24,12/03/24,,TRUE
+05/03/24,946,PILIA,Giulia,357873488,,Pantalon Dan noir T.36,OS - 5 cm,PAYÉ,05/03/24,11/03/24,,TRUE
+05/03/24,947,DAQUO,Elodie,357873889,,Pantalon Loulou bleu orage T.36,OS - 8cm,PAYÉ,05/03/24,08/03/24,,TRUE
+05/03/24,924,MENAIGE,Louise,357765206,,Combinaison Brooklyn - Noir - 38,"OO -7,5cm",PAYÉ,/,05/03/24,,TRUE
+06/03/24,942,KRIKORIAN,Virginie,357758845,,Pantalon Auguste - Noir - 38,OO -7cm,PAYÉ,08/03/24,12/03/24,,TRUE
+06/03/24,946,BEYLOT,Marleen,355787920,,Manteau Calixte - Beige Creme  - 38,Recoudre zip au niveau du col,OFFERT,08/03/24,12/03/24,,TRUE
+06/03/24,941,De Barbeyrac,Sarah,357763834,,Pantalon droit Flint bleu foncé ,"OO - asymétrique -4cm arrière -6,5cm devant voir craie",OFFERT,12/03/24,18/03/24,,TRUE
+06/03/24,940,VINCENSINI,Anna,355133125,,Gilet Basile - Beige Chiné Clair - XS,Remaillage manche,OFFERT,08/03/24,12/03/24,,TRUE
+07/03/24,947,COLLET,Sandra,357847339,,Pantalon Dan Indigo - 36,"OO -6,5CM",PAYÉ,/,12/03/24,,TRUE
+08/03/24,949,SURDIVES,Lisa,356330026,,Robe Jaelle Noir,Remaillage épaule D,OFFERT,08/03/24,12/03/24,"A ENVOYER A DOMICILE : 7 rue de Vienne, 72190 Coulaines. Tél. 0627535000",TRUE
+08/03/24,957,LUX,SAskia,357749711,,Pantalon Tyler ,OO -4cm,DOIT PAYER,,18/03/24,,TRUE
+08/03/24,955,BOUARBAB,Cynthia,VESTI,,Martin Marine 38,OO -9cm,OFFERT,/,18/03/24,,TRUE
+09/03/24,971,COLLET,Mélanie,357929971,,Marino Marine 36,"OS -6,5cm",PAYÉ,/,18/03/24,,TRUE
+09/03/24,950,Toux,Julie,357100556,,Combi Brooklyn - denim,"OO -5,5",OFFERT,/,18/03/24,,TRUE
+09/03/24,958,TARI,FAtima,357834702,,Dan noir 34,Rallonger ourlet max,PAYÉ,/,18/03/24,,TRUE
+09/03/24,960,BENHAMIDA,Inès,355130610,,Dan noir 38,Recoudre ourlets défaits,OFFERT,/,18/03/24,,TRUE
+11/03/24,895,DAGAN,Camille,357909727,,Tyler Poudre 34,OS -9cm,PAYÉ,/,18/03/24,,TRUE
+11/03/24,896,BOURGHIS,Clarisse,357911818,,Pantalon Dan - Noir - 38,OO  reprise taille -1cm,PAYÉ,12/03/24,18/03/24,,TRUE
+11/03/24,897,HANNA,Audrey,357658102,,Pantalon Damon - Camel - 40,Reprise de taille -3cm,OFFERT,12/03/24,18/03/24,A ENVOYER PAR VOIE POSTALE,TRUE
+11/03/24,898,EL ALI,Mariam,357924608,,Pantalon Gustavo - Noir - 34,"OO -5,5cm",PAYÉ,12/03/24,18/03/24,,TRUE
+11/03/24,900,NENY,Marie,357929358,,Pantalon Damon - Noir - 32,"Reprise taille -3,5cm + OO -11cm",PAYÉ,12/03/24,18/03/24,,TRUE
+11/03/24,652,THOUVENIN,Marie,357929480,,Pantalon Loulou - Bleu Orage - 36,Reprise taille -3cm,PAYÉ,12/03/24,18/03/24,,TRUE
+11/03/24,651,THOUVENIN,Marie,357929480,,,"Reprise taille -4,5cm",PAYÉ,12/03/24,18/03/24,,TRUE
+11/03/24,899,KISS,Charlotte,357930775,,Pantalon Gustavo - Marine - 36,reprise taille -4cm + OO -4cm,PAYÉ,12/03/24,18/03/24,,TRUE
+11/03/24,654,KISS,Charlotte,357930775,,Le Crop - Noir - 38,"reprise taille -3,5cm + OO -7cm",PAYÉ,12/03/24,18/03/24,,TRUE
+11/03/24,655,HUBSCHER,Eve,357808603,,Pantalon Dan - Caramel - 32,OO -5cm,PAYÉ,12/03/24,18/03/24,,TRUE
+11/03/24,656,RUGA,Julie,357936492,,Pantalon Loulou - Bleu Orage - 34,OO -8cm,PAYÉ,12/03/24,18/03/24,,TRUE
+11/03/24,657,CAMPANA,Natacha,357933459,,Pantalon Matheo - Safran - 36,"OO -11,5cm",PAYÉ,12/03/24,18/03/24,,TRUE
+11/03/24,961,WANG,Wenfen,357023572,,Gilet Emile - Rose Chiné - S,Remailler manche,OFFERT,12/03/24,18/03/24,,TRUE
+11/03/24,962,TEXIER,Delphine,9277771,,Manteau Taylor - Pivoine - 36,Recoudre passant ceinture,OFFERT,12/03/24,18/03/24,,TRUE
+12/03/24,658,LAHAIS,Gwenaëlle,357989650,,Pantalon Greg - Brique - 34,OO -9cm,PAYÉ,12/03/24,18/03/24,,TRUE
+12/03/24,943,MARS,Aurélie,357856089,,Pantalon Enzo - Denim - 34,"OO -13,5cm",DOIT PAYER,/,12/03/24,,TRUE
+13/03/24,986,MARS,Aurélie,356970818,,Martin Poudre 34,OS -13cm,DOIT PAYER,/,12/03/24,,TRUE
+13/03/24,985,MARS,Aurélie,357303656,,Wide Leg Beige Foncé 34,OS -13cm,DOIT PAYER,/,12/03/24,,TRUE
+14/03/24,984,ROBIN,Delphine,357694002,,Chemise Nicoletta - Imprimé Sequins - 36,Recoudre élastiques,OFFERT,15/03/24,18/03/24,,TRUE
+14/03/24,982,RINCON DE ARELLANO,Irène,357432109,,Pantalon Dan - Camel - 32,OO -6cm,PAYÉ,15/03/24,18/03/24,,TRUE
+14/03/24,983,MONTEIL,Amandine,357658190,,Pantalon Tyler - Poudre - 34,OO -4cm,PAYÉ,15/03/24,18/03/24,,TRUE
+14/03/24,980,PETRUZZINO,Evelyn,358029518,,Pantalon rodrigo prince de galle ,ourlet simple -8cm,PAYÉ,/,18/03/24,,TRUE
+14/03/24,978,SUBLET,Nathalie,358010655,,Veste Christie PDP 34,"Reprise Manches -4,5cm",DOIT PAYER,/,18/03/24,,TRUE
+15/03/24,660,TOBELEM,Elsa,358012377,,Pantalon Rodrigo écri,OS -4cm,PAYÉ,/,18/03/24,,TRUE
+15/03/24,661,Traversa,Gabrielle,358013749,,Rodrigo Rayures T38,OS -6cm,PAYÉ,/,18/03/24,,TRUE
+15/03/24,659,Le Pourhiet,Léa,358014411,,Gustavo Bleu ,"Reprise taille -3,5cm",PAYÉ,/,18/03/24,,TRUE
+15/03/24,662,HERY,Anne-Laure,358029356,,Pantalon Mathéo bleu foncé,OO -9cm,DOIT PAYER,/,18/03/24,,TRUE
+15/03/24,663,MASSERON,Solenn,358029916,,Dan noir,OS -11cm,PAYÉ,/,18/03/24,,TRUE
+15/03/24,664,BUENO,MAïlis,358030408,,Matheo vert 36,OS -10cm,PAYÉ,/,18/03/24,,TRUE
+15/03/24,977,CANALES,Maria,358032547,,,,,/,18/03/24,,TRUE
+16/03/24,974,LAVOLÉ,Jeanne,357447341,,Brooklyn noir 36,"OO -5,5cm",PAYÉ,/,22/03/24,,TRUE
+16/03/24,979,CANALES,Maria,356144507,,Pantalon Loulou Maille - Camel Clair - M,Refaire ourlet invisible,OFFERT,16/03/24,22/03/24,,TRUE
+16/03/24,972,WIMEZ,Pauline,355735730,,Gilet Gaspard - Noir - XS,Remaillage aiselle gauche,OFFERT,/,22/03/24,,TRUE
+16/03/24,966,FERNEZ,Marion,357828804,,Martin bb 34,OO -10cm,PAYÉ,/,22/03/24,,TRUE
+16/03/24,965,LAMOTHE,Sophie,355521132,,Robe Anabeth,"OO -7,5cm",PAYÉ,/,22/03/24,,TRUE
+16/03/24,969,SUSINI,Clara,357311374,,Wide Leg / Bleu cl./ 36,OO -5cm,PAYÉ,/,22/03/24,,TRUE
+18/03/24,970,MEIRA,Roxanne,357984161,,Blouse Jesse - Ecru - 34,Ourlet manche chemise -5cm,PAYÉ,19/03/24,22/03/24,,TRUE
+18/03/24,668,LOUVIERES,Séverine,358041999,,Pantalon Gavi - Bleu Clair - 40,OO -9cm,PAYÉ,19/03/24,22/03/24,,TRUE
+18/03/24,669,LOUVIERES,Séverine,358041999,,Pantalon Loulou - Noir - 40,OO -9cm,PAYÉ,19/03/24,22/03/24,,TRUE
+18/03/24,667,LASALLE,Magali,358041099,,Pantalon Matheo - Vert - 36,OO -11cm,PAYÉ,19/03/24,22/03/24,,TRUE
+18/03/24,666,GRANDVAUX,Inès,358040784,,Pantalon Matheo - Vert - 34,OO -7cm,PAYÉ,19/03/24,22/03/24,,TRUE
+18/03/24,989,DUSSAUZE,Diane,357965342,,Combinaison Laurence - Kaki - XXS,OO -6cm,PAYÉ,19/03/24,22/03/24,,TRUE
+19/03/24,990,PIERRE,Nathalie,358025755,,202ROB003 Robe 44,Recoudre,OFFERT,22/03/24,26/03/24,,TRUE
+20/03/24,7777,ZOUGANELI,Anna,4277382,,Jupe Dino - Marine - 36,Reprendre bas de jupe éffiloché,OFFERT,22/03/24,26/03/24,,TRUE
+20/03/24,991,STAFF,Florine,Vestiaire,,Pantalon Mathéo / Indigo / 36,OO -6cm,OFFERT,22/03/24,26/03/24,,TRUE
+20/03/24,992,WACQUEZ,Marie,12862191,,GIlet Emile / Rose Chiné Clair / XXS,Recoudre poignet droit,OFFERT,22/03/24,26/03/24,,TRUE
+21/03/24,993,BLIN,Marianne,358069158,,Robe Pippa - Léopard - M,Ourlet bas de robe -8cm,PAYÉ,22/03/24,26/03/24,,TRUE
+21/03/24,997,Bahabanian,Joy,358155976,,chuck ecru ,OS -9cm ,PAYÉ,22/03/24,26/03/24,,TRUE
+21/03/24,999,Gronnier,Soline,354776867,,brut sexy 30,recoudre braguette et renforcer couture ,OFFERT,22/03/24,29/03/24,,TRUE
+22/03/24,950,BOGAERT,Romane,357893784,,Pantalon Marino - Ecru - 38,OO -12cm,PAYÉ,22/03/24,29/03/24,,TRUE
+22/03/24,891,PEREIRA,Emma,357884519,,Pantalon Dan - Noir - 36,OO -11cm,PAYÉ,22/03/24,29/03/24,,TRUE
+22/03/24,948,DELESALLE,Mahault,357884226,,Pantalon Dan - Noir - 36,OO -5cm,DOIT PAYER,22/03/24,26/03/24,,TRUE
+22/03/24,998,KRYOKOVA,Anastasia,358105305,,Robe Rosella - Monday - 34,"Reprendre bretelles -4,5cm",PAYÉ,22/03/24,26/03/24,,TRUE
+22/03/24,5,CHARRIER,Camille,357945413,,Top Ron - Ecru noir - M,Recoudre bouton,OFFERT,22/03/24,26/03/24,,TRUE
+22/03/24,761,Pons,Clementine ,356007366,,Pantalon Marino - Denim - 34,"os -8,5cm et resserer boutons ",PAYÉ,26/03/24,26/03/24,,TRUE
+22/03/24,760,Pons,Clementine ,,,ptl Cillian rose ,os -4cm ,PAYÉ,/,29/03/24,,TRUE
+22/03/24,4,MANGE,Pauline,356947029,,Pantalon Carl - Pied de Poule Beige - 42,OO -7cm,PAYÉ,26/03/24,29/03/24,,TRUE
+22/03/24,11,MANGE,Pauline,357937473,,Pantalon Greg - Brique - 40,"OO -7cm + Reprise de taille -4,5cm",PAYÉ,26/03/24,29/03/24,,TRUE
+22/03/24,2,Treillard ,Lucie,35811867,,ptl martin sequin ,"reprise de taille -2,5cm",PAYÉ,26/03/24,29/03/24,,TRUE
+22/03/24,NC,Tarabay,Christopher,357266462,,carl gris tweed,ourlet -3cm avec de 4cm,OFFERT,26/03/24,29/03/24,,TRUE
+23/03/24,950,BOGAERT,Romane,357893784,,Pantalon Marino - Ecru - 38,OO -12cm,PAYÉ,22/03/24,26/03/24,,TRUE
+23/03/24,5,CHARRIER,Camile,357945413,,Top Ron - Ecru noir - M,Recoudre bouton,OFFERT,22/03/24,26/03/24,,TRUE
+23/03/24,23,SOULE,Nerea,356690211,,Pantalon  Martin Crop - Noisette - 40,Réparer couture ourlet,OFFERT,22/03/24,26/03/24,,TRUE
+23/03/24,0,DUVAL DEVUE,Camille,357897545,,Le Crop - Bleach - 42,OO -7cm,PAYÉ,22/03/24,26/03/24,,TRUE
+23/03/24,892,DEVUE,Camille,357897545,,Pantalon Mathéo Safran T38,OO -6cm,PAYÉ,22/03/24,26/03/24,,TRUE
+23/03/24,471,CHIP,Camille,357894711,,Chemise Ann - Imprimé Flower Fuchsia - 34,Ourlet bas de manche -8cm,DOIT PAYER,26/03/24,29/03/24,,TRUE
+23/03/24,940,AUBRON,Myriam,357833123,,Pantalon Mathéo Safran T36,Rallonger ourlet au max,OFFERT,/,26/03/24,,TRUE
+23/03/24,460,Jaillard,Heloise,358103581,,LOULOU NOIR,REPRISE TAILLE -3cm,PAYÉ,/,29/03/24,,TRUE
+23/03/24,461,Jaillard,Heloise,35103581,,LOULOU NOIR ,"OS -2,5cm",PAYÉ,/,29/03/24,,TRUE
+23/03/24,464,mouchez,luce,358043322,,veste romane t 36,os manches -2cm,PAYÉ,/,29/03/24,,TRUE
+23/03/24,463,mouchez,luce,358043322,,ptl greg t 38,"os -10,5cm",PAYÉ,/,29/03/24,,TRUE
+23/03/24,469,gaelle,widiez,358134760,,                                                                                                                                        ,"de l'entre jambe a bas de jambe 74,5cm",,/,29/03/24,,TRUE
+23/03/24,468,gaelle,widiez,35134760,,marino ecru ,"de l'entre jambe a bas de jambe 74,5cm et resserer et resseeer taille -4,5cm",,/,29/03/24,,TRUE
+23/03/24,470,gaelle,widiez,351347760,,rodrigo ,"de l'entre jambe a bas de jambe 74,5cm",,/,29/03/24,,TRUE
+25/03/24,689,minard,caroline ,358174347,,ptl aldo t 36,OS -16cm,PAYÉ,/,29/03/24,,TRUE
+25/03/24,931,Marquet ,Anne Laure,358188113,,ptl loulou bleu ,OS -10cm,DOIT PAYER,/,29/03/24,,TRUE
+25/03/24,687,Gauthier,Caroline ,35172246,,pantalon marino denim ,,PAYÉ,/,29/03/24,,TRUE
+25/03/24,462,FOURCHY,Florence,11826031,,Brut Sexy Bleach 26,Recoudre fermeture,OFFERT,/,29/03/24,,TRUE
+25/03/24,671,WAI,Laura,358110748,,Brut Sexy - Bleach - 36,OO -7cm,PAYÉ,22/03/24,29/03/24,,TRUE
+25/03/24,670,SANTAMARIA,Claire,358061321,,Pantalon Dan - Noir - 32,OO -8cm,PAYÉ,22/03/24,26/03/24,,TRUE
+25/03/24,673,ZOUGANELI,Anna,358009557,,Pantalon Gustavo - Noir - 34,OO -12cm,PAYÉ,22/03/24,26/03/24,,TRUE
+25/03/24,672,SUSLOVA,Anastasia,357929108,,Pantalon Martin - Pastel Forest - 34,OO -5cm,PAYÉ,22/03/24,26/03/24,,TRUE
+25/03/24,674,ZOUGANELI,Anna,357552033,,Slim Parfait - Bleu Clair - 36,OO -5cm,PAYÉ,22/03/24,29/03/24,,TRUE
+25/03/24,675,BARGUES,Juliette,358137243,,Pantalon Dan - Noir - 38,OO -9cm,PAYÉ,22/03/24,26/03/24,,TRUE
+25/03/24,676,MARTINS,Marina,358143455,,Pantalon Tommy - Denim - 34,"OO -7,5cm",PAYÉ,22/03/24,26/03/24,,TRUE
+25/03/24,677,ROMAIN,Eva,358154772,,Pantalon Greg - Brique - 38,"OO -11,5cm",PAYÉ,22/03/24,26/03/24,,TRUE
+25/03/24,678,NAJJAR,Elise,358155785,,Jupe Madelyn - Noir - 34,OO -3cm,PAYÉ,22/03/24,29/03/24,,TRUE
+25/03/24,679,LEWIS,Lily,357910054,,Pantalon Greg - Bleu Glacier - 38,OO -13cm + Reprise de taille -4cm,PAYÉ,22/03/24,26/03/24,,TRUE
+25/03/24,681,FLOUTIER,Millie,358158895,,Robe Rosella - Monday - 36,Retouches Bretelles -3cm,PAYÉ,22/03/24,26/03/24,,TRUE
+25/03/24,682,CALVINO,Sheyron,  ,,Pantalon Baptisto - Gemini - 36,OO -14cm,PAYÉ,22/03/24,29/03/24,,TRUE
+25/03/24,683,CALVINO,Sheyron,358046854,,Pantalon  Martin Crop - Nora - 36,reprise taille -3cm,PAYÉ,22/03/24,26/03/24,,TRUE
+25/03/24,684,MINICUCCI,Emmanuelle,x,,Robe Etia - Magda - 38,OO -4cm,PAYÉ,22/03/24,26/03/24,,TRUE
+25/03/24,685,SIMEONI,Laureen,358161941,,Pantalon Matheo - Safran - 36,OO -8cm,PAYÉ,22/03/24,26/03/24,,TRUE
+25/03/24,688,GONIN,Laurène,358172391,,Pantalon Greg - Brique - 42,OO -7cm,PAYÉ,22/03/24,26/03/24,,TRUE
+25/03/24,9,FARRADECHE,Amélie,357662813,,Pantalon Loulou - Noir - 42,"OO -6,5cm",OFFERT,22/03/24,26/03/24,,TRUE
+25/03/24,5,TRIMOUILLE,Dominique,358178320,,Pantalon  Martin Crop - Nora - 38,Rallonger ourlet au max,PAYÉ,22/03/24,26/03/24,,TRUE
+25/03/24,760,PONS,Clémentine,358172060,,Pantalon Cillian - Bois de rose - ,OO -4cm,PAYÉ,22/03/24,26/03/24,,TRUE
+25/03/24,458,KANAGASABAI,Niruja,11585301,,Trousse de Toilette - Fleuri Vintage - T-U,changer zip,OFFERT,/,02/04/24,,TRUE
+25/03/24,454,De Molliens,Pauline,358187125,,lukas kaki ,ourlet d'origine et recoudre poche.,PAYÉ,26/03/24,29/03/24,,TRUE
+26/03/24,691,BACHELIER,Zénaïde,358227447,,Pantalon Dan - Noir - 36,"OS -13,5cm",,26/03/24,29/03/24,,TRUE
+26/03/24,692,AMIRAULT,Tiffany,358231135,,Pantalon  Martin Crop - Crème - 36,"Reprise de taille -3,5cm",PAYÉ,26/03/24,02/04/24,,TRUE
+26/03/24,1,MORETTI,Anne,358232152,,Pantalon Marino - Marine - 38,OS -4CM,PAYÉ,26/03/24,29/03/24,,TRUE
+26/03/24,2,MORETTI,Anne,6696153,,Pantalon Arthur - Carreaux Rouge Bleu Jaune - 36,"OS -5,5cm",PAYÉ,26/03/24,29/03/24,,TRUE
+26/03/24,3,BARTOLONE,Elsa,357930515,,,OS -5cm,PAYÉ,26/03/24,29/03/24,,TRUE
+26/03/24,693,SOUAIED,Sonia,358239464,,Pantalon Aldo Sable T.34,"OS -10,5",PAYÉ,26/03/24,29/03/24,,TRUE
+26/03/24,453,DELPUECH,MAud,357189700,,Phil Kaki 34,OO -6cm,PAYÉ,26/03/24,29/03/24,,TRUE
+26/03/24,451,ELGUI,Eva,356320985,,70's noir 36,"OO -3,5cm",PAYÉ,26/03/24,29/03/24,,TRUE
+26/03/24,455,PIZEM,Sarah,358169448,,Lukas indigo 36,OO -2cm,PAYÉ,26/03/24,29/03/24,,TRUE
+26/03/24,401,MARTIN,Charlène,357925031,,Matheo / Safran / 38,OS -9cm,PAYÉ,26/03/24,29/03/24,,TRUE
+26/03/24,694,BAHLER,Nese,358261008,,MATHEO SAFRAN 34,OS - 8cm,PAYÉ,29/03/24,02/04/24,,TRUE
+28/03/24,10,KRYUKOVA,Anastasia,358159636,,Top Francisco - Ecru / Marine - XS,reprise bretelle -10cm,PAYÉ,29/03/24,02/04/24,,TRUE
+28/03/24,9,KRYUKOVA,Anastasia,358159636,,Top Francisco - Lurex Bronze / Marron - XS,reprise bretelle -16cm,PAYÉ,29/03/24,02/04/24,,TRUE
+28/03/24,8,SUBLET,Nathalie,358202862,,Trench Scott - Camel - 34,Ourlet bas de manche -6cm,DOIT PAYER,29/03/24,05/04/24,,TRUE
+28/03/24,12,DURAND,Stephanie,358156794,,Robe Pippa courte - Corail - XS,"ourlet bas de robe -6,5cm",DOIT PAYER,29/03/24,02/04/24,,TRUE
+28/03/24,695,PIRIENIA,Yuraire,358271599,,Pantalon Marino - Denim - 36,OO -11cm,PAYÉ,29/03/24,02/04/24,,TRUE
+28/03/24,7,yesilcimen,annie ,358114604,,gustavo marinet 40 ,reprise de taille -2cm ,PAYÉ,/,02/04/24,,TRUE
+29/03/24,13,kanagasabai,Niruja,356335160,,cabas jacquard garden flowers,recoudre anse ,OFFERT,/,02/04/24,,TRUE
+29/03/24,14,Hira ,estelle ,358165316,,aldo,os -15cm,PAYÉ,/,02/04/24,,TRUE
+29/03/24,20,GREZIS,Lucie,358186057,,Greg brique 38,"OS -6,5cm",PAYÉ,/,05/04/24,,TRUE
+29/03/24,NC,taraby ,christopher ,,christophertarabay@gmail.com,carl tweed gris ,os avec revers,PAYÉ,/,05/04/24,,TRUE
+29/03/24,18,GENDREAU,Céline,358166018,,Gustavo noir 32,"Reprise taille -4,5cm",PAYÉ,,05/04/24,,TRUE
+29/03/24,25,ROBERT,Florence,115335520,,Médérick / Camel / 40,Recoudre ctr bordures,OFFERT,/,05/04/24,,TRUE
+30/03/24,16,Rousseau,Prudence ,357753998,,blousevalentine blush,reparer et renforcer attache dos ,OFFERT,/,05/04/24,,TRUE
+30/03/24,19,van ,yeya,355861144,,crop ecru ,os-6cm,PAYÉ,/,05/04/24,,TRUE
+30/03/24,27,Gasnier,estelle ,35805974,,ptl marino ,os -cm ,PAYÉ,/,05/04/24,,TRUE
+30/03/24,26,gasnier,estelle ,357847254,,wide Leg / Bleu cl./ 34,reprise de taille et os,PAYÉ,/,05/04/24,,TRUE
+30/03/24,28,ZERMANI,Ania,356419645,,Marino Marine 40,Zip,OFFERT,/,05/04/24,,TRUE
+30/03/24,29,rose ,celine,3910957,,robe alwena ,voir bouton hakim,?,,05/04/24,,TRUE
+30/03/24,31,beatrice,bea ,,,pantalon damon ,reprise de taille -3cm,PAYÉ,/,05/04/24,,TRUE
+01/04/24,697,GRIMAUD-GUILHEM,Marion,358276086,,Pantalon Marino - Denim - 38,OO -10cm,PAYÉ,/,14/06/24,relancé le 14/06,TRUE
+01/04/24,698,DESMARTIN - DE VERNEJOUL,Apolline,358286451,,Pantalon Marino - Denim - 34,OS -13cm,PAYÉ,/,05/04/24,,TRUE
+01/04/24,699,BENICHOU,Elsa,358288927,,Pantalon Marino - Denim - 36,"OS -3,5cm",PAYÉ,/,05/04/24,,TRUE
+01/04/24,700,JELALIA,Amal,358297582,,Robe Rosella - Monday - 34,Reprise bretelles -8cm,PAYÉ,/,05/04/24,,TRUE
+01/04/24,932,CRAPLET,Maud,358303457,,Pantalon Marino - Marine - 36,"OS -8,5cm",PAYÉ,/,05/04/24,,TRUE
+01/04/24,NC,CHEREAU,Sophie,358303288,,Pantalon Marino - Marine - 38,OS -12cm,PAYÉ,/,05/04/24,,TRUE
+03/04/24,36,THOUVENIN,Marie,357929480,,Pantalon Dan - Noir - 38,"reprise de taille -1,5cm",OFFERT,/,14/06/24,pas assez repris la première fois,TRUE
+03/04/24,40,CROULARD,Andrea ,358392894,,pantalmon flare finn ,ourlet d'origine -10cm,PAYÉ,/,14/06/24,,TRUE
+04/04/24,10,Anastasia ,Kryukova ,358159636,,top rouge,reprise bretelles -10cm,PAYÉ,/,14/06/24,,TRUE
+04/04/24,39,Anastasia ,Kryukova ,358159636,,top noir,Reprise bretelles -10cm,PAYÉ,/,14/06/24,,TRUE
+04/04/24,41,Cherara,nassera,358396563,,"jean archive ""martin""",reprendre boutons + ourlet d'origine ,,/,14/06/24,,TRUE
+01/07/23,42,NAFFAA,VANESSA,10201857,,Short Rico - Marine. - 36,reprise taille +1cm,OFFERT,/,14/06/24,,TRUE
+05/04/24,933,MISPELAERE,Ludivine,358346552,,Pantalon Giovanni - Beige Clair - 38,Reprise taille -2cm + OS -4cm,PAYÉ,/,16/04/24,,TRUE
+05/04/24,47,Vadivelu,Thusyanthy,355950668,,crop noir ,reprise taille -10cm,OFFERT,/,14/06/24,,TRUE
+05/04/24,48,Vieilly ,noa ,358181612,,emilio ocre T 34,reprendre la taille -4cm ,,/,16/04/24,,TRUE
+06/04/24,49,verpiot ,sixtine ,11920488,,manteau mederich vert ,refaire couture manches gauche,,/,19/04/24,,TRUE
+06/04/24,50,De molliens ,Pauline ,358231784,,ptl kaki ,recoudre la poche ,OFFERT,/,14/06/24,,TRUE
+06/04/24,8,sublet ,nathalie ,358202862,,Trench Scott - Camel - 34,manches -3cm ,OFFERT,/,14/06/24,,TRUE
+06/04/24,751,lelong bonnaric ,ludivine ,3582068,,ptl marine martin 40,"os -5,5cm ",PAYÉ,/,14/06/24,,TRUE
+06/04/24,202,goirand ,daphne ,358243366,,ethan chemise ,reparer boutoniere ,,/,14/06/24,relancé le 14/06,TRUE
+08/04/24,208,bedier,caitlin,,,ptl silvio ,os -8cm ,PAYÉ,/,16/04/24,,TRUE
+08/04/24,208,bedier,caitlin,,,jimmy ,-3cm,PAYÉ,/,14/06/24,,TRUE
+08/04/24,206,de souza pereira,tatiana,,,blouse altea,recoudre le bouton,,/,14/06/24,,TRUE
+08/04/24,204,de souza pereira,tatiana,,,ander,os -11cm,,/,14/06/24,,TRUE
+08/04/24,205,medine,kose,358380895,,loulou,os -3cm ,,/,14/06/24,,TRUE
+09/04/24,210,Amsellen,Léa,,,Jean Brut sexy t34,recoudre entre jambes,OFFERT,/,16/04/24,,TRUE
+10/04/24,209,Amsellen,Léa,358275847,,pantalon Loulou noir t 34,OS -13cm,PAYÉ,/,16/04/24,,TRUE
+10/04/24,940,Gil,Ana Sofia,,,jupe Tabata t 36,rallonger de 3cm,OFFERT,/,19/04/24,,TRUE
+10/04/24,942,Gil,Ana Sofia,,,pantalon Giovanni Violet t 34,"OS -2,5cm",OFFERT,/,16/04/24,,TRUE
+10/04/24,862,Fauchère,Marine,358017315,,archives,OS -3cm (depuis ancien ourlet),OFFERT,/,16/04/24,,TRUE
+10/04/24,861,Fauchère,Marine,358041503,,pantalon Greg brique t36,"OS -2,5cm",OFFERT,/,16/04/24,,TRUE
+10/04/24,859,Ouk,Keria,358393863,,combinaison Luana t 34,OS -17cm,OFFERT,/,16/04/24,,TRUE
+10/04/24,860,Fauchere,Marine,358409468,,Pantalon Giovanni violet t 34,OS -3cm,OFFERT,/,16/04/24,,TRUE
+10/04/24,214,muller,coralie ,355881302,,pantalon dan indigo ,remmettre boutons ,,/,16/04/24,,TRUE
+10/04/24,intern,lucas ,froger ,intern ,,max 38,recoudre epaule ,,/,16/04/24,,TRUE
+10/04/24,211,millasau,camille,356534721,,jupe malia farm rio ,"reprise taille -8,5Cm",,/,16/04/24,,TRUE
+10/04/24,945,campana,natacha ,358490896,,ptl giovanni rouge 36,os -9cm,,/,16/04/24,,TRUE
+11/04/24,802,leroy,coralie ,358489805,,tyler rose t42,os -12cm ,,/,16/04/24,,TRUE
+11/04/24,755,eva ,brejon,358383798,,ptl greg brique ,"OS -10,5",,/,16/04/24,,TRUE
+11/04/24,753,berger,opheliane ,,,ptl giovannibeige ,os -12cm,,/,16/04/24,la cliente souhaite recup la chute de tissus ,TRUE
+11/04/24,476,florence,robert,11533520,,manteau mederich camel,,,/,16/04/24,,TRUE
+15/04/24,238,DESPLATS,Laure,10210749,,Combishort Zita - Ficelle - 38,Recoudre bouton,OFFERT,16/04/24,19/04/24,Relancer la cliente,TRUE
+15/04/24,237,DESPLATS,Laure,9891907,,Robe Vivienne - Blossom jaune fond noir - 40,Recoudre trou manche,OFFERT,16/04/24,19/04/24,Relancer la cliente,TRUE
+15/04/24,809,LENGRAND,Vanessa,358398172,,Pantalon Marino - Denim - 36,renforcement des boutons intérieur,OFFERT,16/04/24,19/04/24,,TRUE
+15/04/24,810,ELBAZ,Margaux,358516132,,Le Crop - Ecru Chiné - 34,"OO -5,5cm",PAYÉ,16/04/24,19/04/24,,TRUE
+15/04/24,811,BOWER,Emily,358517819,,Brut Sexy - Bleach - TALL - 36,"OO -10,5cm",OFFERT,16/04/24,14/06/24,relancé le 14/06,TRUE
+15/04/24,946,EGELE,Lea,358516505,,Robe Bella - Ecru - 34,"Ourlet bas de robe -7,5cm",PAYÉ,16/04/24,19/04/24,,TRUE
+15/04/24,234,CRUCHET,Olivia,357270131,,Pantalon Tommy - Denim - 38,OO -10cm,PAYÉ,16/04/24,23/04/24,,TRUE
+15/04/24,233,RAIMOND,Emeline,358501986,,Pantalon L'iconique Droit - Gris Moyen - 38,reprise de taille -6cm,PAYÉ,16/04/24,19/04/24,,TRUE
+15/04/24,949,DERAI,Nina,358061873,,Pantalon Marino - Ecru - 36,OS -12cm,358531191 echec paiement,16/04/24,19/04/24,,TRUE
+15/04/24,948,CHIRILLA,Anna,358527645,,Pantalon Giovanni - Violet - 36,OS -7cm,PAYÉ,16/04/24,19/04/24,,TRUE
+15/04/24,231,CHARROL,Gaëlle,358532170,,Robe Layla - Ecru - 34,Renforcer attache arrière,OFFERT,16/04/24,19/04/24,,TRUE
+15/04/24,230,CHARROL,Gaëlle,358532170,,Robe Layla - Ecru - 34,Renforcer attache arrière lanièren haute,OFFERT,16/04/24,19/04/24,,TRUE
+15/04/24,229,CHARROL,Gaëlle,358532170,,Pantalon Giovanni - Beige Clair - 34,OS -7cm,PAYÉ,16/04/24,19/04/24,,TRUE
+15/04/24,228,VIGUERIE,Coline,358159911,,Gilet Solena - Ecru - XL,Recoudre aisselle avant droite et arrière gauche,OFFERT,16/04/24,23/04/24,,TRUE
+15/04/24,225,UNDA,Garbine,358421652,,Pantalon Loulou - Bleu Orage - 38,OS -6cm + reprise de taille -3cm,PAYÉ,16/04/24,23/04/24,,TRUE
+15/04/24,224,VERPIOT ,Sixtine,355263043,,Pantalon Damon - Carreaux écossais marine - 42,Refaire ourlet invisible,OFFERT,16/04/24,23/04/24,,TRUE
+15/04/24,223,DAUCHY,Héloise,357958863,,Pantalon Tiago - Sara Rouge - 34,reprise de taille -6cm,DOIT PAYER,16/04/24,19/04/24,,TRUE
+15/04/24,222,DAUCHY,Héloise,358427474,,Pantalon Giovanni - Beige Clair - 34,Reprise de taille -6cm + OS -9cm,DOIT PAYER,16/04/24,19/04/24,,TRUE
+15/04/24,219,LEFEBVRE - CORMAO,Justine,358269531,,Pantalon Dan - Camel - 34,"OS -10,5cm",PAYÉ,16/04/24,19/04/24,,TRUE
+15/04/24,218,LEFEBVRE - CORMAO,Justine,358322744,,Pantalon Georgio - Vanille - 34,OS -7cm,PAYÉ,16/04/24,19/04/24,,TRUE
+15/04/24,220,LEFEBVRE - CORMAO,Justine,358322744,,Pantalon Giovanni - Beige Clair - 34,OS -11cm,PAYÉ,16/04/24,19/04/24,,TRUE
+15/04/24,808,GAUDIN,Clarisse,358507135,,Pantalon Camillo - Noir - 34,OS -5cm,PAYÉ,16/04/24,19/04/24,,TRUE
+15/04/24,804,RINCON,Patricia,358502311,,Combinaison Stella - Terre - 36,OS -19cm,PAYÉ,16/04/24,19/04/24,,TRUE
+15/04/24,805,YE,Mang Mang,358502752,,Pantalon Marino - Marine - 36,OS -7cm,PAYÉ,16/04/24,19/04/24,,TRUE
+15/04/24,806,YE,Mang Mang,358272021,,Pantalon Matheo - Bleu Foncé - 34,OO -6cm,PAYÉ,16/04/24,23/04/24,,TRUE
+15/04/24,807,BASCOU,Sandrine,358445104,,Combinaison Stella - Noir - 38,"OS -5,5cm",PAYÉ,16/04/24,19/04/24,,TRUE
+15/04/24,239,AMIRAULT,Tiffany,358469518,,Pantalon Martin - Baby Blue - 36,Reprise de taille -5cm + OS -11cm,DOIT PAYER,16/04/24,26/04/24,,TRUE
+16/04/24,812,LAUSI,Célia,358561199,,Le Crop - Ecru Chiné - 38,reprise taille -1cm,PAYÉ,16/04/24,19/04/24,,TRUE
+16/04/24,240,GRAVRAND,Grégoire,358360304,,Pantalon Deon - Kaki - 38,OO - ,OFFERT,16/04/24,19/04/24,,TRUE
+17/04/24,241,Tabary,Theophil,358046854,,Pantalon Baptisto Gemini 36,couture hanche gauche à reprendre,offert,/,19/04/24,Relancer le client / jamais contacté car par d'adresse mail valide,TRUE
+18/04/24,815,ESCHENHORN,Ambre,STAFF,,Jupa malia pied de poule 36,"reprise de taille -5,5cm",OFFERT,19/04/24,23/04/24,,TRUE
+18/04/24,816,ESCHENHORN,Ambre,STAFF,,Pantalon Dan camel 36,"OS -9,5cm",OFFERT,19/04/24,23/04/24,,TRUE
+18/04/24,817,ESCHENHORN,Ambre,STAFF,,Pantalon Dan baby blue 36,OS -10cm,OFFERT,19/04/24,26/04/24,,TRUE
+18/04/24,813,Sirand,Anne,358593053,,Pantalon Camillo Noir T.42,"OS -15,5cm",PAYÉ,19/04/24,23/04/24,,TRUE
+18/04/24,822,Soares,Elodie,Staff,,Pantalon Marty Ecru T.34,OS -14 cm,OFFERT,19/04/24,23/04/24,,TRUE
+18/04/24,821,Soares,Elodie,Staff,,Pantalon Jones Ecru T.34,OS - 12cm,OFFERT,19/04/24,23/04/24,,TRUE
+18/04/24,819,Jaouen,Olga,358607960,,Pantalon Giacomo. Doré T.36,"OS arrière -13cm / avant -12,5cm",PAYÉ,19/04/24,23/04/24,,TRUE
+18/04/24,814,Hauchecorne,Laurence,358595024,,Pantalon Giacomo. Doré T.38,OS - 8cm,PAYÉ,19/04/24,23/04/24,,TRUE
+18/04/24,818,Bahn Setili,Anais,358607810,,Pantalon Mathéo / rayures T.38,"OS-9,5cm",OFFERT,19/04/24,23/04/24,,TRUE
+18/04/24,820,Zidane,Ralia,358608947,,Pantalon Giovanni Beige T.42,OS-4cm,PAYÉ,19/04/24,23/04/24,,TRUE
+18/04/24,865,NICOLI,Frederique,358629525,,Pantalon Loulou - Noir - 38,"OS -1,3cm",PAYÉ,19/04/24,23/04/24,,TRUE
+18/04/24,823,NICOLI,Frederique,358629525,,Pantalon Giovanni - Violet - 40,"OS -6,5cm",PAYÉ,19/04/24,23/04/24,,TRUE
+19/04/24,757,BOCH,Mirissa,vestiaire,,Pantalon greg bleu 34,"OS -10,5cm",OFFERT,23/04/24,26/04/24,,TRUE
+20/04/24,824,PAILLART,Elise,358640204,,Robe Giovanna - Paradise - 42,2 pinces au fessiers -3cm de chaque coté,PAYÉ,23/04/24,26/04/24,,TRUE
+20/04/24,866,VERDIER,Laurana,358636376,,Pantalon Emilio - Bleu Denim - 36,Reprise de taille -3cm,PAYÉ,23/04/24,26/04/24,,TRUE
+20/04/24,759,BLANCH,Chloé,358503311,,Pantalon Rodriguo - Rayure Noire Fond Ecru - 38,OS -11cm,PAYÉ,23/04/24,26/04/24,,TRUE
+22/04/24,2,FRANCILLON,Justine,358041322,,Pantalon Greg - Brique - 34,OS -10cm,OFFERT,23/04/24,26/04/24,,TRUE
+22/04/24,770,OLIVA,Eliane,357266892,,Jupe Savine - Caramel - 38,Recoudre boutons + renforcer,OFFERT,23/04/24,26/04/24,,TRUE
+22/04/24,760,CARRIER,Célina,358540451,,Pantalon Giovanni - Beige Clair - 36,"OS -5,5cm",PAYÉ,23/04/24,26/04/24,,TRUE
+22/04/24,765,PALMIERI,Isabelle,12527666,,Gilet Gaspard - Vert Flash - XS,Recoudre trou manche + trou avant,OFFERT,23/04/24,26/04/24,,TRUE
+22/04/24,761,SCHWAB,Julie,357282901,,Brut Sexy - Gris Moyen - 26,"Reprise de taille -4,5cm",PAYÉ,23/04/24,26/04/24,,TRUE
+22/04/24,764,Metzger,Mikaela,358058334,,Pantalon Ciara - Noir - 36,Recoudre couture coté,OFFERT,23/04/24,26/04/24,,TRUE
+22/04/24,767,LONGUY,Julia,355301212,,Veste Léopold - Patchwork Bleu - 40,Recoudre trous le plus discretement possible,OFFERT,23/04/24,26/04/24,,TRUE
+23/04/24,766,POTEL,Victoria,12344852,,Manteau Mederick - Vert Olive - 34,Recoudre trou nivaeu du passant de la ceinture,OFFERT,23/04/24,26/04/24,,TRUE
+23/04/24,774,MALAN,Michelle,358376344,,Pantalon Gustavo - Noir - 36,"OS -5,5cm",PAYÉ,23/04/24,26/04/24,,TRUE
+23/04/24,775,MALAN,Michelle,??,,Pantalon Marino - Denim - 38,"OS -6,5cm",PAYÉ,23/04/24,26/04/24,,TRUE
+23/04/24,867,HELLOT,Jennifer,358652710,,Pantalon Loulou - Crème - 34,OS -10cm,PAYÉ,23/04/24,26/04/24,,TRUE
+23/04/24,868,DE JESUS,Clara,358585823,,Pantalon Matheo - Safran - 36,"OS -8,5cm",PAYÉ,26/04/24,26/04/24,,TRUE
+25/04/24,477,KALCHMAN,Claire,358027831,,Jupe Fenda - Fond Bleu Broderie Ecrue - 34,Recoudre boutons + renforcer,OFFERT,26/04/24,30/04/24,,TRUE
+25/04/24,872,VIRAMOUTOU,Sabine,358718825,,Pantalon Giovanni - Rouge - 42,OS -10cm,PAYÉ,26/04/24,30/04/24,,TRUE
+25/04/24,873,TANG,Chenjie,358719217,,Pantalon Marino - Marine - 36,Reprise taille - 4cm + OS - 11cm,PAYÉ,26/04/24,30/04/24,,TRUE
+25/04/24,874,DENIZET LEGOFF,Aurore,358719461,,Pantalon Loulou - Noir - 34,"OS - 14,5cm",PAYÉ,26/04/24,30/04/24,,TRUE
+25/04/24,478,VELARDE,Laura,358625200,,Pantalon Marty Ecru T.38,"OS -5cm + reprise de taille -5,5cm",PAYÉ,26/04/24,03/05/24,,TRUE
+25/04/24,250 249,gil,ana sofia ,,,ptl loulou bleu ,ouverture taille plus 2cm os 2CM en plus ,,/,03/05/24,,TRUE
+25/04/24,480,NICOLI,Frederique,358629525,,Pantalon Loulou - Noir - 38,"OS -1,5cm",OFFERT,19/04/24,30/04/24,,TRUE
+26/04/24,481,Vincensini,Anna,258699494,,Pantalon Loulou /. Ecru /. T.34,OS ,PAYÉ,26/04/24,30/04/24,,TRUE
+26/04/24,826,Longueville,Celia,358740017,,Pantalon Camilio / Noir / T.38,"OS -5,5cm ",PAYÉ,26/04/24,30/04/24,,TRUE
+26/04/24,825,Tramons,Daniele,358739153,,Combinaison Stella / Rouge / T.36,OS -17cm,PAYÉ,26/04/24,30/04/24,,TRUE
+26/04/24,827,Dalberto,Sophie,358746654,,Pantalon Marino / Denim / T.36,"OO -6,5 cm",PAYÉ,26/04/24,30/04/24,,TRUE
+27/04/24,780,lagarrique,zoe,1237438,,pull briana,recoudre enmanchure ,OFFERT,30/04/24,03/05/24,,TRUE
+27/04/24,502,JOFFRES,Adeline,13340008,,Le Crop - Kaki. - 34,Changer zip,OFFERT,30/04/24,07/05/24,,TRUE
+27/04/24,501,PFEIFFER,Zélie,358173129,,Pantalon Gustavo - Marine - 36,Reprise taille - 3cm,PAYÉ,30/04/24,03/05/24,,TRUE
+27/04/24,484,LE BRUN,Marion,358315861,,Pantalon Silvio - Beige - 36,"OS - 9,5cm",PAYÉ,30/04/24,03/05/24,,TRUE
+27/04/24,483,LE BRUN,Marion,358587206,,Jupe Madelyn - Beige - 38,Reprise taille - 5cm,PAYÉ,30/04/24,03/05/24,,TRUE
+26/04/24,890,GUILLON,Justine,358521836,,Pantalon Mathéo - Bleu foncé - 38,"OO -2,5cm",PAYÉ,30/04/24,03/05/24,,TRUE
+29/04/24,485,MONSSE,Athis,358702810,,Robe Rosella - Monday - 36,"Reprise bretelle -7,5cm",PAYÉ,30/04/24,03/05/24,,TRUE
+29/04/24,889,Orsini,Fabienne,358769785,,ptl greg bleu,OS -8cm,PAYÉ,30/04/24,03/05/24,,TRUE
+29/04/24,888,Orsini ,Fabienne,358769785,,PTL GREG ROPUILLE ,"OS -9,5cm",,/,03/05/24,,TRUE
+29/04/24,504,Boutin,manon,35836031,,ptl tyler rose ,"OS -10,5cm",PAYÉ,/,03/05/24,,TRUE
+29/04/24,vestiaire,riviere,emma ,vestiaire ,,ptl marino marine ,"OS -9,5cm",OFFERT,/,03/05/24,,TRUE
+29/04/24,869,boutroux ,astrid ,358705087,,ptl giovanni rouge 36,os -13cm ,PAYÉ,/,03/05/24,,TRUE
+29/04/24,879,mauchard,constance,358762947,,ptl giovanni beige t 44,"os -11,5cm",PAYÉ,/,03/05/24,,TRUE
+29/04/24,887,yvelin,aude,358764035,,ptl matheo noir 36,os -1cm ,PAYÉ,/,03/05/24,,TRUE
+29/04/24,828,burgeat ,isabelle,358752324,,ptl azzio vert t 40,os -5cm,PAYÉ,/,03/05/24,,TRUE
+29/04/24,875,muller ,victoire,358752500,,ptl matheo jaune t 36,"os -7,5cm ",PAYÉ,/,03/05/24,,TRUE
+29/04/24,877,lagant ,eve ,358760876,,slim parfait ,"os -4,5cm ",PAYÉ,/,10/05/24,,TRUE
+29/04/24,878,baumann ,camille ,358762274,,ptl camel ,"os -4,5cm ",PAYÉ,/,03/05/24,,TRUE
+29/04/24,871,many,delphine,358708475,,ptl violet ,"reprise de taille -4,5cm ",PAYÉ,/,03/05/24,,TRUE
+29/04/24,870,hecht,caroline ,35817458,,jupe sophie ecru ,"reprise de taille -4,3cm",PAYÉ,/,03/05/24,,TRUE
+29/04/24,776,jonuel,juliette,3556422032,,ptl dan t 34,recoudre le bouton ,OFFERT,/,03/05/24,,TRUE
+29/04/24,779,augulo,diana,3585449963,,robe adele ,Ourlet bas de robe -13cm,DOIT PAYER,/,03/05/24,,TRUE
+29/04/24,505,DELMAS,Pauline,358486811,,Jupe Sophie - Ocre - 38,Reprendre la taille -5cm,PAYÉ,/,03/05/24,,TRUE
+02/05/24,506,pochard ,clara,vestiare ,,dan indigo t38,bouton poche a renforcer ,OFFERT,/,03/05/24,,TRUE
+02/05/24,506,pochard ,clara,vestiare ,,matheo noir t36,os -5cm,OFFERT,/,03/05/24,,TRUE
+02/05/24,508,mispelaere,ludivine ,358346552,,giovanni beige t38,reprise taille -2cm ,OFFERT,/,17/05/24,A renvoyer chez la cliente directement via Stuart (Voir Clara) // suite litige 17/05/24 ,TRUE
+02/05/24,507,prioux,maria,356370654,,robe gani,recoudre couture epaule ,OFFERT,/,07/05/24,,TRUE
+02/05/24,510,lupiac,mathilde,,,ptl giovanni violet ,os -14 cm,OFFERT,/,07/05/24,,TRUE
+02/05/24,509,Amsellen,Lea,358275897,,Pantalon Loulou / Noir / T.34,Ajuster jambe gauche à la droite + 2cm,Offert,/,07/05/24,A renvoyer chez la cliente directement via Stuart ,TRUE
+02/05/24,486,Pena,Sibylle,358445064,,Pantalon Giovanni / Beige / 42,OS - 11cm,PAYÉ,/,07/05/24,,TRUE
+03/05/24,829,Van ,Yaya,358813739,,Pantalon Emilio -  Bleach T.36,OO - 7cm,PAYÉ,/,07/05/24,,TRUE
+03/05/24,891,Ristrosi,Lea,358846510,,Pantalon Loulou Noir - T.38,OS - 8cm,PAYÉ,/,07/05/24,,TRUE
+03/05/24,488,Mnatsakanyan,Ayarpi,358615516,,Combinaison Stella / Corail /. T.36,"OS -13,5cm",PAYÉ,/,07/05/24,,TRUE
+23/04/24,492,HELLOT,Jennifer,358652710,,Pantalon Loulou - Crème - 34,"OS + 2,5cm",PAYÉ,07/05/24,10/05/24,,TRUE
+04/05/24,491,darchen,nadine,358186303,,ptl matheo safran,"os 9,5cm",PAYÉ,/,10/05/24,,TRUE
+04/05/24,453,danzin ,cyrielle,358876104,,ptl matheo noir 36,taille -3cm et os -12cm ,PAYÉ,/,10/05/24,,TRUE
+04/05/24,452,alegre ,perrine,355744265,,slim parfait ,braguette a changer ,PAYÉ,07/05/24,10/05/24,,TRUE
+04/05/24,783,dinis ,manon,358317454,,ptl damon blanc ,"os -8,5cm ",PAYÉ,07/05/24,10/05/24,,TRUE
+04/05/24,782,dhaouadi ,ysmine,358862244,,martin denim ,OS -5cm ,PAYÉ,07/05/24,10/05/24,,TRUE
+04/05/24,781,sgard,elina ,355438782,,richie veste ,poche gauche boutons pressions ,PAYÉ,07/05/24,21/05/24,,TRUE
+04/05/24,490,tiffany ,amirault ,358469518,,martin denim ,os -5cm reprise -2cm ,PAYÉ,07/05/24,10/05/24,,TRUE
+07/05/24,493,MULET,Anouk,358651655,,Pantalon Dan - Camel - 36,"OS -11,5cm",OFFERT,07/05/24,10/05/24,,TRUE
+07/05/24,455,FONTINHA,Annabelle,358878666,,Slim Parfait - Bleu Denim - 42,"OO -8,5cm",PAYÉ,07/05/24,10/05/24,,TRUE
+07/05/24,893,VASSAL,Romane,358862940,,Pantalon Baptisto - Gemini - 40,OS -18cm,PAYÉ,07/05/24,10/05/24,,TRUE
+07/05/24,865,VASSAL,Romane,358862940,,Pantalon Baptisto - Gemini - 40,Recoudre trou couture côté,OFFERT,07/05/24,10/05/24,,TRUE
+07/05/24,832,MAISONNEUVE,Morgane,358879579,,Pantalon Baptisto - Gemini - 36,OS -14cm,PAYÉ,07/05/24,10/05/24,,TRUE
+07/05/24,833,RULL,Claire,358928570,,Pantalon Matheo - Safran - 36,OS -4cm,PAYÉ,07/05/24,10/05/24,,TRUE
+07/05/24,494,MARRONE,Frederica,358813592,,Pantalon  Martin Crop - Crème - 34,Reprise taile -5cm,PAYÉ,07/05/24,14/05/24,,TRUE
+07/05/24,496,MULLER,Fati,358724551,,Pantalon Matheo - Safran - 40,OS -8cm,PAYÉ,07/05/24,10/05/24,,TRUE
+07/05/24,495,MULLER,Fati,358724551,,Veste Christie - Safran - 38,"ourlet manche - 7,5cm",PAYÉ,07/05/24,10/05/24,,TRUE
+07/05/24,892,PIERENS,Dominique,358859767,,Pantalon Greg - Brique - 36,OS -11cm,PAYÉ,07/05/24,10/05/24,,TRUE
+07/05/24,831,HOARAU,Linda,358860425,,Pantalon Marino - Denim - 36,OS -11cm,PAYÉ,07/05/24,10/05/24,,TRUE
+07/05/24,834,AFONSO,Christine,358929674,,Jupe Sophie - Pois Ecru Fond Marine - 42,reprise de taille -3cm,PAYÉ,07/05/24,10/05/24,,TRUE
+07/05/24,830,AZAIS,Céline,358859299,,Pantalon Matheo - Safran - 38,OS -7cm,PAYÉ,07/05/24,10/05/24,,TRUE
+07/05/24,456,SAURET,Agnès,358833487,,Pantalon Azzio - Vert Prairie - 38,OO -4cm,PAYÉ,10/05/24,14/05/24,,TRUE
+08/05/24,498,Carrier,Célina,358540451,,Pantalon Giovanni / Beige Clair / T.36,OS -4cm,OFFERT,10/05/24,14/05/24,A renvoyer chez la cliente ,TRUE
+08/05/24,835,Alvarez,arielle,358658505,,Combinaison Luana / Pois / T.38,"OS - 9,5 cm",PAYÉ,10/05/24,14/05/24,,TRUE
+09/05/24,838,duarte ,nina,358156720,,ptl matheo safran,"OS -8,6cm",PAYÉ,10/05/24,14/05/24,,TRUE
+09/05/24,839,duarte ,nina,358156720,,ptl greg brique t 36,"OS -7,5cm ",PAYÉ,10/05/24,14/05/24, ,TRUE
+09/05/24,894,sylla ,mariam,358958736,,brut sexy t 38 ,ourlet d'origine -14cm,PAYÉ,10/05/24,14/05/24,,TRUE
+09/05/24,837,sery,emilie ,358972985,,ptl greg bleu 34,"OS-9,8cm ",PAYÉ,10/05/24,14/05/24,,TRUE
+09/05/24,836,gillot pietre ,alexandra ,358960831,,brut sexy indigo t44,os -7cm ,PAYÉ,/,14/05/24,,TRUE
+09/05/24,784,bernier ,fantine,358866309,,ptl 70's ,os -15cm ,PAYÉ,10/05/24,14/05/24,,TRUE
+10/05/24,512,SALZER,Marion,358269951,,Pantalon Flint - Bleu Foncé - 34,OO -6cm,PAYÉ,14/05/24,18/05/24,,TRUE
+11/05/24,511,ALI BENALI,Yasmine,358835912,,Pantalon Giovanni - Violet - 36,"OS -7,5cm",PAYÉ,14/05/24,18/05/24,,TRUE
+11/05/24,499,MULLER,Victoire,358752500,,Pantalon Matheo - Safran - 36,Reprise de taille -4cm,OFFERT,14/05/24,18/05/24,,TRUE
+11/05/24,787,PUDERBEUTEL,Françoise,358777873,,Pantalon Gavi - Bleu Clair - 40,"OS -10,5cm",OFFERT,14/05/24,18/05/24,,TRUE
+11/05/24,786,PUDERBEUTEL,Françoise,358488370,,Pantalon Cillian - Création Solidaire - Bois de rose chiné - 40,"OS -10,5cm",OFFERT,14/05/24,18/05/24,,TRUE
+11/05/24,500,JAUB,Julie,358308294,,Robe Layla - Vert d'été - 34,OS -14cm,DOIT PAYER,14/05/24,18/05/24,,TRUE
+13/05/24,517,PARTOUCHE,ASSIA,358775537,,Pantalon ALDO T36,"OS - 8,5cm",PAYÉ,14/05/24,18/05/24,,TRUE
+13/05/24,518,Escande,Mayannne,358926396,,Robe Fabiola / Ecru - Camel / XS,Bas de robe -7cm,PAYÉ,14/05/24,18/05/24,,TRUE
+13/05/24,514,le guyader,alicia ,/,,combinaison brooklyn noir,"OS -6,5cm",PAYÉ,/,18/05/24,,TRUE
+13/05/24,458,blanche ,pauline ,358872980,,jupe norma ,reprise taille ,PAYÉ,/,18/05/24,,TRUE
+11/05/24,895,MAS,Suzanne,359005561,,Pantalon Marino / Ecru / 32,OS -13cm ,PAYÉ,14/05/24,18/05/24,Pas de trace d'achat du pantalon,TRUE
+13/05/24,519,EL HOSS,Sara,358814634,,Pantalon Matheo - Bleu Foncé - 34,OO -11cm,PAYÉ,14/05/24,18/05/24,,TRUE
+14/05/24,459,perret ,adelaide ,357536508,,ptl cyrano flower,"OO -6,5cm ",PAYÉ,17/05/24,21/05/24,,TRUE
+15/05/24,462,Belcari,Giulia,359021176,,Pantalon Syra / Pois  /T.34,OS -6cm    ,PAYÉ,17/05/24,28/05/24,,TRUE
+15/05/24,479,Dumand,Marianne,359047245,,Pantalon Dan / Noir / T.34,"os -4,5cm ",PAYÉ,17/05/24,21/05/24,,TRUE
+15/05/24,846,BALDOUINO,Martina,359070276,,Pantalon Marino - Marine - 34,OS -11cm,OFFERT,17/05/24,21/05/24,VOIR ONGLET STAFF,TRUE
+15/05/24,478,PIERRONT,Cécile,354433082,,Pantalon Martin - Marine - 38,Renforcer + refaire ourlets + bouton taille,OFFERT,17/05/24,28/05/24,,TRUE
+16/05/24,463,KRYUKOVA,Anastasia,358891662,,Robe Lindsey - Crème - XS,Raccourcir bretelles -7cm,PAYÉ,17/05/24,21/05/24,,TRUE
+14/05/24,842,SUTRA,Géraldine,359056399,,Pantalon Marino - Denim - 38,OO - 10cm,PAYÉ,17/05/24,21/05/24,,TRUE
+14/05/24,843,LINDET,Capucine,359056569,,Brut Sexy - Indigo - 32,OO -6cm,PAYÉ,17/05/24,21/05/24,,TRUE
+15/05/24,845,DESPREZ,Catherine,359069848,,Pantalon Marino - Marine - 40,OS -9cm,PAYÉ,17/05/24,21/05/24,,TRUE
+15/05/24,847,BULVESTRE / MARTIN,Felix / Julie,358638181,,Blouse Gaya - Noir - 38,recoudre élastique manche,OFFERT,17/05/24,21/05/24,,TRUE
+14/05/24,840,MEDDAH,Mayriem,358980287,,Pantalon Giovanni - Violet - 34,Reprise de taille -3cm,PAYÉ,17/05/24,21/05/24,,TRUE
+14/05/24,841,MEDDAH,Mayriem,358980287,,Pantalon Giovanni - Violet - 34,OS -5cm,PAYÉ,17/05/24,21/05/24,,TRUE
+16/05/24,480,FALLER POT,Aurélie,359034819,,Pantalon Gustavo - Noir - 36,OS -8cm,PAYÉ,17/05/24,21/05/24,,TRUE
+16/05/24,897,STOUS,Julie,359097903,,Slim Parfait - Bleu Denim - 38,OO -10cm,PAYÉ,21/05/24,30/05/24,,TRUE
+16/05/24,896,CROU,Marie-Hélène,359096261,,Pantalon Gavi - Bleu Clair - 42,OO -8cm,PAYÉ,21/05/24,24/05/24,,TRUE
+15/05/24,848,GLIMNUROVA,Vialina,359087410,,Pantalon Matheo - Safran - 36,"OS -9,5cm",PAYÉ,21/05/24,24/05/24,,TRUE
+18/05/24,899,TAVERNIER,Clara,359110118,,Pantalon Tyler - Poudre - 34,OS -5cm,PAYÉ,21/05/24,24/05/24,,TRUE
+18/05/24,900,BILJIC,Tijana,359114088,,Pantalon Marino - Marine - 38,Reprise taille -3cm,PAYÉ,21/05/24,28/05/24,,TRUE
+20/05/24,850,MATHIEU,Manon,359151616,,Jupe Norma - Aria - 34,"Reprise taille -3,5cm",PAYÉ,21/05/24,30/05/24,,TRUE
+20/05/24,849,LEVY,Isabelle,359148993,,Pantalon Loulou - Noir - 36,OS -6cm,PAYÉ,21/05/24,24/05/24,,TRUE
+18/05/24,898,CROSET,Albane,359109295,,Combinaison Stella - Rouge - 34,OS -19cm,PAYÉ,21/05/24,24/05/24,,TRUE
+18/05/24,469,SERY,Emilie ,358973802,,Pantalon Greg - Brique - 34,OO -8cm,PAYÉ,21/05/24,24/05/24,,TRUE
+18/05/24,472,PECHEUX,Charles,358961883,,Pantalon Terence - Beige Clair - 40,OO -8cm,PAYÉ,21/05/24,24/05/24,,TRUE
+18/05/24,468,NAZARENKO,Valeriia,358838754,,Pantalon Silvio - Beige - 34,"OO -3,5cm",PAYÉ,21/05/24,24/05/24,,TRUE
+18/05/24,471,LOGEAIS,Hélène,359043255,,Robe Pippa - Noir - XS,OO -2cm,DOIT PAYER,21/05/24,07/06/24,,TRUE
+17/05/24,467,CUNIASSE,Claire,358940794,,Robe Bella - Ecru - 36,"Ourlet bas der obe -7,5cm",PAYÉ,21/05/24,07/06/24,,TRUE
+18/05/24,473,ARAB,Sonia,358346111,,Pantalon Loulou - Noir - 34,OS -9cm,PAYÉ,21/05/24,24/05/24,,TRUE
+20/05/24,474,MANODALY,Aliya,358867503,,Pantalon Elmon - Marine - 42,OS -8cm,PAYÉ,21/05/24,24/05/24,retour arrivé chez khune le 17/05 en cours de traitement / remboursement anticipé le 21/05 du pantalon via un retour Khuene,TRUE
+17/05/24,483,LEPEC,Céline,358762698,,Pantalon Martin - Baby Blue - 34,"OS -8cm arrière -9,5cm avant",PAYÉ,21/05/24,24/05/24,,TRUE
+20/05/24,788,MONTANDON,alexandra ,359030003,,Pantalon Dan - Camel - 36,OS -14cm,PAYÉ,21/05/24,24/05/24,,TRUE
+18/05/24,470,HUMEAU,nathalie ,356866896,,Sweatshirt La Superbe - Création Solidaire - Ecru / doré  - M,Recoudre trou avant,OFFERT,21/05/24,24/05/24,A envoyer par CHRONO : HUMEAU Nathalie 1 square des Roseaux 49300 CHOLET,TRUE
+20/05/24,475,HUYNH,Stéphanie,358847613,,Pantalon Dan - Indigo - 36,"OS -6cm avant -6,5cm arrière",PAYÉ,21/05/24,24/05/24,,TRUE
+17/05/24,881,MOUSARI,Sara (avec ou sans h),VESTIAIRE,,Pantalon Marino - Denim - 40,Retouche d'origine -11cm (-12cm avant),OFFERT,21/05/24,24/05/24,Voir onglet staf,TRUE
+16/05/24,466,TERRADE,Julie,359057956,,Pantalon Giovanni - Violet - 36,"OS -14,5cm",PAYÉ,17/05/24,21/05/24,,TRUE
+22/05/24,486,CLEMENT,Alexandra,359047765,,Pantalon Marino - Marine - 36,OS -4cm,PAYÉ,24/05/24,28/05/24,URGENT 28/05,TRUE
+22/05/24,485,BEHAGHEL,Isaure,359040622,,Pantalon Dan - Noir - 38,OS -5cm,DOIT PAYER,24/05/24,28/05/24,,TRUE
+22/05/24,866,EBZANT,Maya,,,Pantalon Marino - Denim - 34,OS -2cm,OFFERT,24/05/24,28/05/24,Facturé 15€ au lieu de 10€ / Aucune trace dans le BO du compte client et donc de la commande du pantalon,TRUE
+22/05/24,487,MULLER,Victoire,358752500,,Pantalon Matheo - Safran - 36,Reprise de taille +2cm,OFFERT,24/05/24,07/06/24,3ème retouche,TRUE
+21/05/24,484,PUDERBEUTEL,Françoise,358318985,,Jupe Sophie - Pois Ecru Fond Marine - 42,Recoudre fente de 30cm,OFFERT,24/05/24,07/06/24,Retouche complexe / arreter d'offrir les retouches particulièrement si complexes,TRUE
+24/05/24,901,GILLETTE,Anne,359188835,,Pantalon Camillo - Noir - 36,Reprise de taille - 3cm,PAYÉ,24/05/24,28/05/24,,TRUE
+24/05/24,902,GILLETTE,Anne,359188835,,Pantalon Camillo - Noir - 36,"Ourlet simple -8,5cm",PAYÉ,24/05/24,28/05/24,,TRUE
+24/05/24,493,LY,Rosannie,359106749,,Pantalon Giovanni - Beige Clair - 34,OS -7cm,PAYÉ,24/05/24,28/05/24,,TRUE
+23/05/24,489,PAYA,Rachel,358953253,,Pantalon Giovanni - Beige Clair - 36,OS -8cm,PAYÉ,24/05/24,28/05/24,,TRUE
+25/05/24,532,CHERARA,Nassera,359097908,,Jupe Amandine - imprimé birds - 38,bouton,OFFERT,28/05/24,31/05/24,,TRUE
+25/05/24,531,CHERARA,Nassera,358849804,,chemise chlo - jaune - 38,bouton,OFFERT,28/05/24,31/05/24,,TRUE
+27/05/24,540,DE BERU,Ann,357955771,,Le Crop - Café - 36,OO -3cm,PAYÉ,28/05/24,31/05/24,,TRUE
+27/05/24,537,CHERARA,Nassera,358971541,,Bas longs - Aucun - Petit,OS -9cm,PAYÉ,28/05/24,31/05/24,,TRUE
+25/05/24,905,ABIRIZK,Faten,359219107,,Pantalon Giovanni - Doré - 38,OS -3cm,PAYÉ,28/05/24,31/05/24,,TRUE
+27/05/24,539,CHERARA,Nassera,358298879,,Bas longs - Aucun - Petit,OS -4cm,PAYÉ,28/05/24,31/05/24,,TRUE
+27/05/24,536,CROU,Alexane,359139540,,Pantalon Greg - Bleu Glacier - 34,OS -5cm,PAYÉ,28/05/24,31/05/24,,TRUE
+25/05/24,533,AGOSTINI,Margaux,358977274,,Pantalon Deon - Naturel - 38,Reprise de taille +2cm,PAYÉ,28/05/24,31/05/24,,TRUE
+25/05/24,534,SOUCHON,Cécile,359132450,,Pantalon Ciara - Camel - 40,"OS -4,5cm",PAYÉ,28/05/24,07/06/24,,TRUE
+25/05/24,535,NARDONE,Carla,358865983,,Brut Sexy - Bleu Denim - 36,Reprise taille -5cm,PAYÉ,28/05/24,31/05/24,,TRUE
+25/05/24,530,D'OLIVEIRA,Chloé,357649503,,Pantalon Marino - Denim - 38,OS -9cm,PAYÉ,28/05/24,31/05/24,Erreur de remboursement taille 38 au lieu de la taille 36,TRUE
+25/05/24,529,DUMANOIR DELARBRE,Lou,358568704,,Pantalon L'iconique Droit - Denim - 40,OS -8cm,OFFERT,28/05/24,31/05/24,,TRUE
+25/05/24,528,HENAFF,Guillemette,357011904,,Brut Sexy - Denim - 25,Recoudre fermeture boutonnière + vérifier coutures pour les ...,OFFERT,28/05/24,31/05/24,,TRUE
+25/05/24,500,SIRE,Hélène,359005698,,Pantalon Baptisto - Gemini - 34,OS -14cm,PAYÉ,28/05/24,31/05/24,,TRUE
+27/05/24,544,DE LA MORANDIERE,Mathilde,359220476,,Pantalon Matheo - Vert - 38,Refaire ourlet invisible + renforcer + Reprise de taille -5cm,DOIT PAYER,28/05/24,07/06/24,,TRUE
+23/05/24,523,WEIBEL,Charlotte,359132821,,Pantalon Giovanni - Violet - 36,"OS -6,5cm arrière -8cm avant",PAYÉ,24/05/24,28/05/24,,TRUE
+28/05/24,550,GRONDIN,Suzy,359296919,,Pantalon Marino - Marine - 38,OS -5cm,PAYÉ,31/05/24,04/06/24,,TRUE
+29/05/24,908,VOINIS,Charlotte,359308056,,Pantalon Gavi - Bleu Clair - 36,OS -10cm,PAYÉ,31/05/24,04/06/24,,TRUE
+28/05/24,906,DE SOUSA,Julie,359292863,,Pantalon Matheo - Rayures Beige Rose Marron - 34,OS -19cm,PAYÉ,31/05/24,04/06/24,,TRUE
+28/05/24,907,DE SOUSA,Julie,359292863,,Pantalon Matheo - Rayures Beige Rose Marron - 34,Reprise de taille -5cm,PAYÉ,31/05/24,04/06/24,,TRUE
+28/05/24,547,FRIED,Célia,NC,,Pantalon Giovanni - Beige clair - 34,OS -14cm,PAYÉ,31/05/24,04/06/24,pas de numéro de commande aucune trace du pantalon sur le compte,TRUE
+28/05/24,548,VIGREUX,Joséphine,359095167,,Combinaison Pernelle - Noir - 40,OS -5cm,PAYÉ,31/05/24,04/06/24,,TRUE
+28/05/24,791,NGUYEN,Anh,358435853,,Pantalon Silvio - Beige - 36,OS -7cm,PAYÉ,31/05/24,04/06/24,,TRUE
+28/05/24,793,CANALES,Maria,358952778,,Pantalon Martin - Chambray - 38,OS -10cm,PAYÉ,31/05/24,04/06/24,,TRUE
+28/05/24,792,CANALES,Maria,357538685,,Pantalon Lukas - Marine - 38,OS -10cm,PAYÉ,31/05/24,04/06/24,,TRUE
+24/05/24,524,FOURNIE,Laura,359141698,,Pantalon Enzo - Denim - 34,OS -10cm,PAYÉ,NC,30/05/24,,TRUE
+24/05/24,527,VACHEZ,Douniazad,358941259,,Combinaison Stella - Noir - 36,OS -14cm,PAYÉ,NC,30/05/24,,TRUE
+24/05/24,526,VACHEZ,Douniazad,358941259,,Pantalon Camillo - Noir - 38,OS -14cm,PAYÉ,NC,30/05/24,,TRUE
+29/04/24,789,MONSSE,Athis,358702810,,Robe Rosella - Monday - 36,Reprise bretelle +3cm,OFFERT,04/06/24,07/06/24,,TRUE
+30/05/24,796,KOTULA,Théo,358156129,,Pantalon Deon - Kaki - 40,OS -6cm,PAYÉ,04/06/24,07/06/24,,TRUE
+31/05/24,403,LEGRAND,Morgane,359028172,,Jupe Sophie - Ocre - 36,"ourlet bas de jupe -7,5cm",PAYÉ,04/06/24,07/06/24,,TRUE
+01/06/24,405,ROMAGNE,Marine,359110820,,Pantalon Giovanni - Beige Clair - 34,OS -8cm,PAYÉ,04/06/24,07/06/24,,TRUE
+31/05/24,651,RAYO,Juliana,359338513,,Pantalon Marino - Denim - 36,OS -7cm,PAYÉ,04/06/24,07/06/24,,TRUE
 01/06/24,405,ROMAGNE,Marine,359110820,NC,Pantalon Giovanni - Beige Clair - 34,OS -8cm,PAYÉ,04/06/24,07/06/24,,TRUE
 31/05/24,651,RAYO,Juliana,359338513,NC,Pantalon Marino - Denim - 36,OS -7cm,PAYÉ,04/06/24,07/06/24,,TRUE
 03/06/24,910,Mostovaja,Aleksandra,359358848,NC,Pantalon Mathéo / Ecru / T.38,OS-6cm,PAYÉ,04/06/24,07/06/24,,TRUE
