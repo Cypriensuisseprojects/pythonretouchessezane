@@ -63,7 +63,7 @@ def load_and_clean_data():
 
 try:
     df = load_and_clean_data()
-    st.title("📊 Dashboard Conciergerie Sézane")
+    st.title("📊 KPI's retouches CG P2")
 
     # --- FILTRES ---
     st.sidebar.header("Période d'analyse")
@@ -72,29 +72,50 @@ try:
     month_name = st.sidebar.selectbox("Mois", MOIS_FR, index=datetime.now().month - 1)
     month_target = MOIS_FR.index(month_name) + 1
 
-    tab_year, tab_month, tab_flux = st.tabs(["📅 Vision Annuelle", "🎯 Focus Mensuel", "🚨 Suivi des Flux"])
+    tab_year, tab_month, tab_flux = st.tabs(["📅 Vision Annuelle", "🎯 Focus Mensuel", "🚨 Alertes relances & suivi retouches chez AM retouches"])
 
-    # --- TAB 1 : VISION ANNUELLE ---
+# --- TAB 1 : VISION ANNUELLE ---
     with tab_year:
         df_year = df[df['ANNEE'] == year_target]
         df_prev = df[df['ANNEE'] == (year_target - 1)]
         
-        # Row 1 : Métriques Clés
-        c1, c2, c3, c4 = st.columns(4)
-        c1.metric("Total Annuel", len(df_year), delta=f"{len(df_year)-len(df_prev)} vs N-1")
+        # --- CALCULS N vs N-1 ---
+        # 1. Volume
+        vol_n = len(df_year)
+        vol_n1 = len(df_prev)
         
-        # KPI Fidélité : Clients récurrents
-        clients_counts = df_year['CLIENT_FULL'].value_counts()
-        recurrence = len(clients_counts[clients_counts > 1])
-        c2.metric("Clients Fidèles", recurrence, help="Nombre de clients revenus au moins 2 fois dans l'année")
+        # 2. Fidélité (Clients récurrents)
+        fidele_n = len(df_year['CLIENT_FULL'].value_counts()[df_year['CLIENT_FULL'].value_counts() > 1])
+        fidele_n1 = len(df_prev['CLIENT_FULL'].value_counts()[df_prev['CLIENT_FULL'].value_counts() > 1])
         
-        avg_delai_year = df_year['DELAI'].mean()
-        c3.metric("Délai Moyen Annuel", f"{avg_delai_year:.1f} j" if not pd.isna(avg_delai_year) else "-")
+        # 3. Délai Moyen
+        delai_n = df_year['DELAI'].mean()
+        delai_n1 = df_prev['DELAI'].mean()
         
-        payantes_rate = (len(df_year[df_year['CATE_PRIX'] == 'Payant']) / len(df_year) * 100) if len(df_year) > 0 else 0
-        c4.metric("% Service Payant", f"{payantes_rate:.1f}%")
+        # 4. Part Payante (%)
+        payant_n = (len(df_year[df_year['CATE_PRIX'] == 'Payant']) / vol_n * 100) if vol_n > 0 else 0
+        payant_n1 = (len(df_prev[df_prev['CATE_PRIX'] == 'Payant']) / vol_n1 * 100) if vol_n1 > 0 else 0
 
-        # Row 2 : Graphiques de tendance
+        # --- Row 1 : Métriques Clés avec Deltas ---
+        c1, c2, c3, c4 = st.columns(4)
+        
+        c1.metric("Total Annuel", f"{vol_n} pces", 
+                  delta=f"{vol_n - vol_n1} vs N-1")
+        
+        c2.metric("Clients Fidèles", f"{fidele_n}", 
+                  delta=f"{fidele_n - fidele_n1} vs N-1",
+                  help="Nombre de clients revenus au moins 2 fois dans l'année")
+        
+        # Delta délai : négatif = vert (car délai plus court)
+        delta_delai = None if pd.isna(delai_n) or pd.isna(delai_n1) else round(delai_n - delai_n1, 1)
+        c3.metric("Délai Moyen Annuel", f"{delai_n:.1f} j" if not pd.isna(delai_n) else "-", 
+                  delta=f"{delta_delai} j vs N-1" if delta_delai is not None else None,
+                  delta_color="inverse")
+        
+        c4.metric("% Service Payant", f"{payant_n:.1f}%", 
+                  delta=f"{payant_n - payant_n1:.1f}% vs N-1")
+
+        # --- Row 2 : Graphiques de tendance ---
         st.markdown("---")
         col_g1, col_g2 = st.columns([2, 1])
         
@@ -116,11 +137,12 @@ try:
             fig_bar.update_layout(showlegend=False, xaxis_title="Nombre", yaxis_title="")
             st.plotly_chart(fig_bar, use_container_width=True)
 
-        # Row 3 : Analyse de la Valeur
+        # --- Row 3 : Analyse de la Valeur ---
         st.markdown("---")
         st.subheader("💎 Analyse de la Fidélité Client")
         c_fid1, c_fid2 = st.columns(2)
         
+        clients_counts = df_year['CLIENT_FULL'].value_counts()
         with c_fid1:
             # Répartition Nouveaux vs Récurrents
             labels = ['Nouveaux Clients', 'Clients Récurrents']
@@ -131,10 +153,10 @@ try:
             
         with c_fid2:
             # Top clients de l'année
-            st.write("🌟 **Top 5 Ambassadeurs (Nb retouches)**")
-            top_5_clients = df_year['CLIENT_FULL'].value_counts().head(5).reset_index()
-            top_5_clients.columns = ['Client', 'Nombre de Retouches']
-            st.table(top_5_clients)
+            st.write("🌟 **Top 10 Ambassadeurs (Nb retouches)**")
+            top_10_clients = clients_counts.head(10).reset_index()
+            top_10_clients.columns = ['Client', 'Nombre de Retouches']
+            st.table(top_10_clients)
 
     # --- TAB 2 : FOCUS MENSUEL ---
     with tab_month:
@@ -158,31 +180,49 @@ try:
                 fig_pie = px.pie(df_m, names='CATE_PRIX', hole=0.5, color_discrete_map={'Payant':'#D4AF37','Offert':'#E5D3B3'})
                 st.plotly_chart(fig_pie, use_container_width=True)
 
-    # --- TAB 3 : SUIVI DES FLUX ---
+# --- TAB 3 : SUIVI DES FLUX ---
     with tab_flux:
-        st.subheader("📦 Gestion du stock Boutique")
+        st.subheader("📦 Alertes relances & Retouches en cours")
+        
+        # 1. ALERTES RELANCES (Articles prêts non récupérés > 30j)
         un_mois_ago = datetime.now() - timedelta(days=30)
-        alertes_stock = df[(df['DATE DISPO'].notna()) & (df['RECUPERE'] == False) & (df['DATE DISPO'] < un_mois_ago)].copy()
+        alertes_stock = df[(df['DATE DISPO'].notna()) & 
+                           (df['RECUPERE'] == False) & 
+                           (df['DATE DISPO'] < un_mois_ago)].copy()
 
         if not alertes_stock.empty:
-            st.error(f"⚠️ **{len(alertes_stock)} articles sont en stock depuis plus de 30 jours !**")
+            st.error(f"⚠️ **{len(alertes_stock)} retouches sont en boutique depuis plus de 30 jours !**")
             st.dataframe(alertes_stock[['DATE DISPO', 'NOM', 'N° SOUCHE', 'NOM ARTICLE']].sort_values('DATE DISPO'), use_container_width=True)
             csv = alertes_stock.to_csv(index=False).encode('utf-8')
-            st.download_button("📩 Télécharger la liste des relances", csv, "relances_clients.csv", "text/csv")
+            st.download_button("📩 Télécharger la liste des relances", csv, "relances_retouches_sézane.csv", "text/csv")
         else:
             st.success("✅ Aucun article en stock depuis plus de 30 jours.")
 
         st.markdown("---")
-        col_att, col_stock = st.columns(2)
-        with col_att:
-            st.info(f"⏳ En attente Atelier ({month_name})")
-            attente = df_m[df_m['DATE DISPO'].isna()]
-            st.dataframe(attente[['DATE CLIENT', 'NOM', 'NOM ARTICLE']], use_container_width=True)
         
-        with col_stock:
-            st.write("📦 Stock global prêt à emporter")
-            en_stock_global = df[(df['DATE DISPO'].notna()) & (df['RECUPERE'] == False)]
-            st.dataframe(en_stock_global[['DATE DISPO', 'NOM', 'N° SOUCHE']], use_container_width=True)
+        # 2. TOUTES LES RETOUCHES EN ATTENTE (Chez le retoucheur)
+        # On utilise 'df' (toutes les données) et non 'df_m' (mois filtré)
+        attente_globale = df[df['DATE DISPO'].isna()].copy()
+        
+        st.subheader(f"🧵 Toutes les retouches chez le retoucheur ({len(attente_globale)} pièces)")
+        st.warning("Ces articles ont été envoyés mais n'ont pas encore de date de retour enregistrée.")
+        
+        if not attente_globale.empty:
+            # On trie par date client pour voir les plus anciennes en premier
+            st.dataframe(
+                attente_globale[['DATE CLIENT', 'NOM', 'N° SOUCHE', 'NOM ARTICLE', 'DESCRIPTIF DE LA RETOUCHE']]
+                .sort_values('DATE CLIENT'), 
+                use_container_width=True
+            )
+        else:
+            st.success("✅ Aucune retouche en attente de retour chez le retoucheur.")
+
+        st.markdown("---")
+        
+        # 3. STOCK GLOBAL PRÊT (Pour info)
+        with st.expander("📦 Voir tout le stock prêt en boutique (tous mois confondus)"):
+            stock_boutique = df[(df['DATE DISPO'].notna()) & (df['RECUPERE'] == False)]
+            st.dataframe(stock_boutique[['DATE DISPO', 'NOM', 'N° SOUCHE', 'NOM ARTICLE']], use_container_width=True)
 
 except Exception as e:
     st.error(f"Erreur lors de l'analyse : {e}")
