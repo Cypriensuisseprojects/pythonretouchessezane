@@ -51,7 +51,26 @@ def load_and_clean_data():
     df['NOM'] = df['NOM'].fillna('').astype(str).str.upper().str.strip()
     df['PRENOM'] = df['PRENOM'].fillna('').astype(str).str.strip()
     df['CLIENT_FULL'] = df['NOM'] + " " + df['PRENOM']
-    df['NOM ARTICLE'] = df['NOM ARTICLE'].fillna('Inconnu').astype(str).str.capitalize()
+    # --- NETTOYAGE INTELLIGENT DES ARTICLES (Suppression des tailles) ---
+    def clean_article_name(name):
+        import re
+        name = str(name).capitalize()
+        # On retire les mentions de tailles classiques : 
+        # - " - 34", " - T36", " - FR 40"
+        # - " - S", " - M", " - L", " - XL"
+        # - " T38", " T40"
+        patterns = [
+            r" - (FR\s?)?\d{2}$",      # ex: - FR 36 ou - 36
+            r" - (T)?\d{2}$",         # ex: - T38 ou - 38
+            r" - (XS|S|M|L|XL|XXL)$", # ex: - M ou - XL
+            r" (T|Size\s?)\d{2}$",    # ex: T38 ou Size 40
+            r" T[3-5][0-9]$"          # ex: T34 à T52
+        ]
+        for p in patterns:
+            name = re.sub(p, "", name).strip()
+        return name
+
+    df['NOM ARTICLE'] = df['NOM ARTICLE'].apply(clean_article_name)
     
     # Catégorisation Prix
     df['CATE_PRIX'] = df['MONTANT À REGLER'].apply(lambda x: "Payant" if 'PAY' in str(x).upper() or any(char.isdigit() for char in str(x)) else "Offert")
