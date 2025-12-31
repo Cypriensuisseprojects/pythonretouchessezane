@@ -4,7 +4,6 @@ import plotly.express as px
 import plotly.graph_objects as go
 from datetime import datetime, timedelta
 import re
-import os
 
 # --- CONFIGURATION ---
 st.set_page_config(page_title="Sézane Analytics Pro", layout="wide")
@@ -26,9 +25,9 @@ st.markdown("""
     """, unsafe_allow_html=True)
 
 @st.cache_data
-def load_and_clean_data(file_source):
-    # Chargement dynamique
-    df = pd.read_csv(file_source, skiprows=1)
+def load_and_clean_data():
+    # Chargement
+    df = pd.read_csv('SUIVI SERVICES CONCIERGERIE _ PARIS 2 - SUIVI RETOUCHE SEZANE.csv', skiprows=1)
     df = df.loc[:, ~df.columns.str.contains('^Unnamed')]
     df.columns = [c.strip() for c in df.columns]
     df = df.dropna(subset=['DATE CLIENT', 'NOM'], how='all').copy()
@@ -69,20 +68,8 @@ def load_and_clean_data(file_source):
     
     return df
 
-# --- GESTION DES FICHIERS ---
-st.sidebar.header("📁 Données Source")
-fichiers_locaux = [f for f in os.listdir('.') if f.endswith('.csv')]
-fichier_defaut = 'SUIVI SERVICES CONCIERGERIE _ PARIS 2 - SUIVI RETOUCHE SEZANE.csv'
-
-# On propose les fichiers présents ou l'upload
-selection_fichier = st.sidebar.selectbox("Choisir un fichier projet", fichiers_locaux if fichiers_locaux else ["Aucun fichier trouvé"])
-uploaded_file = st.sidebar.file_uploader("Ou importer un nouveau CSV", type="csv")
-
-# Priorité : 1. Upload, 2. Sélection, 3. Fichier par défaut
-final_source = uploaded_file if uploaded_file else selection_fichier
-
 try:
-    df = load_and_clean_data(final_source)
+    df = load_and_clean_data()
     st.title("📊 KPI's retouches CG P2")
 
     # --- FILTRES ---
@@ -123,10 +110,43 @@ try:
         stats_n1 = df_prev.groupby('MOIS_NUM').size().reindex(range(1, 13), fill_value=0)
         
         fig_season = go.Figure()
-        fig_season.add_trace(go.Scatter(x=MOIS_FR, y=stats_n.values, name=f"Année {year_target}", line=dict(color='#D4AF37', width=4), mode='lines+markers+text', text=stats_n.values, textposition="top center"))
-        fig_season.add_trace(go.Scatter(x=MOIS_FR, y=stats_n1.values, name=f"Année {year_target-1}", line=dict(color='#E5D3B3', width=2, dash='dot'), mode='lines+markers'))
-        
-        fig_season.update_layout(hovermode="x unified", plot_bgcolor='rgba(0,0,0,0)', height=450, yaxis=dict(title="Nombre de pièces", showgrid=True, gridcolor='rgba(200, 200, 200, 0.3)', dtick=50, minor=dict(dtick=10, showgrid=True, gridcolor='rgba(200, 200, 200, 0.1)')), xaxis=dict(showgrid=False), legend=dict(orientation="h", yanchor="bottom", y=1.02, xanchor="right", x=1))
+
+        # Courbe Année N (Dorée, plus épaisse)
+        fig_season.add_trace(go.Scatter(
+            x=MOIS_FR, 
+            y=stats_n.values, 
+            name=f"Année {year_target}",
+            line=dict(color='#D4AF37', width=4),
+            mode='lines+markers+text',
+            text=stats_n.values, # Affiche le chiffre sur le point
+            textposition="top center"
+        ))
+
+        # Courbe Année N-1 (Beige, pointillée)
+        fig_season.add_trace(go.Scatter(
+            x=MOIS_FR, 
+            y=stats_n1.values, 
+            name=f"Année {year_target-1}",
+            line=dict(color='#E5D3B3', width=2, dash='dot'),
+            mode='lines+markers'
+        ))
+
+        # --- OPTIMISATION DES AXES ---
+        fig_season.update_layout(
+            hovermode="x unified",
+            plot_bgcolor='rgba(0,0,0,0)',
+            height=450,
+            yaxis=dict(
+                title="Nombre de pièces",
+                showgrid=True,
+                gridcolor='rgba(200, 200, 200, 0.3)', # Quadrillage léger
+                dtick=50, # Un marqueur principal toutes les 50 unités
+                minor=dict(ticklen=4, dtick=10, showgrid=True, gridcolor='rgba(200, 200, 200, 0.1)') # Lignes secondaires toutes les 10 unités
+            ),
+            xaxis=dict(showgrid=False),
+            legend=dict(orientation="h", yanchor="bottom", y=1.02, xanchor="right", x=1)
+        )
+
         st.plotly_chart(fig_season, use_container_width=True)
 
         st.markdown("---")
@@ -144,84 +164,125 @@ try:
             top_10_df.columns = ['Client', 'Nombre de Retouches']
             st.table(top_10_df)
 
+        st.markdown("---")
+        st.subheader("💎 Analyses de Structure (Mix Client & Prix)")
+        col_mix1, col_mix2 = st.columns(2)
+        with col_mix1:
+            st.write("**💰 Répartition Payant / Offert**")
+            fig_pie_pay = px.pie(df_year, names='CATE_PRIX', hole=0.5, color_discrete_map={'Payant':'#D4AF37','Offert':'#E5D3B3'})
+            fig_pie_pay.update_traces(textinfo='percent')
+            st.plotly_chart(fig_pie_pay, use_container_width=True)
+        with col_mix2:
+            st.write("**👥 Nouveaux vs Récurrents**")
+            clients_counts = df_year['CLIENT_FULL'].value_counts()
+            fig_pie_fid = px.pie(names=['Nouveaux', 'Récurrents'], values=[(clients_counts == 1).sum(), (clients_counts > 1).sum()], hole=0.5, color_discrete_sequence=['#E5D3B3', '#D4AF37'])
+            fig_pie_fid.update_traces(textinfo='percent')
+            st.plotly_chart(fig_pie_fid, use_container_width=True)
+
     # --- TAB 2 : FOCUS MENSUEL ---
     with tab_month:
         df_m = df_year[df_year['MOIS_NUM'] == month_target]
         if df_m.empty:
             st.info(f"Aucune donnée pour {month_name} {year_target}.")
         else:
+            # --- 1. KPI MANAGÉRIAUX ---
             m1, m2, m3, m4 = st.columns(4)
+            
             payant_pct = (len(df_m[df_m['CATE_PRIX'] == 'Payant']) / len(df_m) * 100) if len(df_m) > 0 else 0
             avg_delai = df_m['DELAI'].mean()
+            
             m1.metric("Volume Traité", f"{len(df_m)} pces")
             m2.metric("Délai de Livraison", f"{avg_delai:.1f} j" if not pd.isna(avg_delai) else "-")
             m3.metric("Performance Vente", f"{payant_pct:.1f}% Payant")
             m4.metric("En attente client", f"{len(df_m[df_m['RECUPERE'] == False])} pces")
 
             st.markdown("---")
-            cl, cr = st.columns(2)
-            with cl:
+
+            # --- 2. ANALYSE GRAPHIQUE ---
+            col_left, col_right = st.columns(2)
+
+            with col_left:
                 st.subheader("⏱️ Respect du contrat délai (SLA)")
+                # Création de tranches de délais
                 bins = [-1, 3, 7, 10, 15, 1000]
                 labels = ['Express (0-3j)', 'Standard (4-7j)', 'Tendu (8-10j)', 'Retard (11-15j)', 'Critique (>15j)']
+                # On s'assure que DELAI est numérique et sans NaN pour le calcul
                 df_temp = df_m.dropna(subset=['DELAI']).copy()
                 if not df_temp.empty:
                     df_temp['TRANCHE_DELAI'] = pd.cut(df_temp['DELAI'], bins=bins, labels=labels)
-                    fig_delai = px.bar(df_temp['TRANCHE_DELAI'].value_counts().reindex(labels), color_discrete_sequence=['#D4AF37'])
+                    fig_delai = px.bar(df_temp['TRANCHE_DELAI'].value_counts().reindex(labels), 
+                                       color_discrete_sequence=['#D4AF37'])
+                    fig_delai.update_layout(showlegend=False, height=350, xaxis_title="", yaxis_title="Nombre de pièces")
                     st.plotly_chart(fig_delai, use_container_width=True)
-            with cr:
+                else:
+                    st.write("Pas de données de délais disponibles (dates de retour manquantes).")
+
+            with col_right:
                 st.subheader("👗 Top 5 Modèles retouchés")
-                top_m = df_m['NOM ARTICLE'].value_counts().head(5).reset_index()
-                top_m.columns = ['Modèle', 'Volume']
-                fig_p = px.pie(top_m, values='Volume', names='Modèle', hole=0.4, color_discrete_sequence=px.colors.sequential.YlOrBr)
-                st.plotly_chart(fig_p, use_container_width=True)
+                top_models = df_m['NOM ARTICLE'].value_counts().head(5).reset_index()
+                top_models.columns = ['Modèle', 'Volume']
+                # Utilisation d'une palette séquentielle qui existe : 'YlOrBr' (Yellow-Orange-Brown)
+                fig_models = px.pie(top_models, values='Volume', names='Modèle', hole=0.4,
+                                   color_discrete_sequence=px.colors.sequential.YlOrBr)
+                fig_models.update_layout(height=350)
+                st.plotly_chart(fig_models, use_container_width=True)
 
             st.markdown("---")
+            
+            # --- 3. RÉCAPITULATIF OPÉRATIONNEL ---
             st.subheader("📑 Détail des opérations du mois")
-            search = st.text_input("Rechercher client, souche ou article...", key="search_m")
+            search = st.text_input("Rechercher un client, une souche ou un article...", placeholder="Tapez ici...")
+            
             display_df = df_m[['DATE CLIENT', 'DATE DISPO', 'NOM', 'N° SOUCHE', 'NOM ARTICLE', 'CATE_PRIX', 'DELAI']]
             if search:
                 display_df = display_df[display_df.astype(str).apply(lambda x: x.str.contains(search, case=False)).any(axis=1)]
+            
             st.dataframe(display_df.sort_values('DATE CLIENT', ascending=False), use_container_width=True)
 
-    # --- TAB 3 : SUIVI DES FLUX ---
+   # --- TAB 3 : SUIVI DES FLUX ---
     with tab_flux:
         st.subheader("📦 Alertes relances & Retouches en cours")
+        
+        # Définition des seuils temporels
         un_an_ago = datetime.now() - timedelta(days=365)
         un_mois_ago = datetime.now() - timedelta(days=30)
         
-        alertes_critiques = df[(df['DATE DISPO'].notna()) & (df['RECUPERE'] == False) & (df['DATE DISPO'] < un_an_ago)].copy()
-        alertes_stock = df[(df['DATE DISPO'].notna()) & (df['RECUPERE'] == False) & (df['DATE DISPO'] < un_mois_ago) & (df['DATE DISPO'] >= un_an_ago)].copy()
-
+        # 1. ALERTES CRITIQUES (> 1 AN)
+        alertes_critiques = df[(df['DATE DISPO'].notna()) & 
+                               (df['RECUPERE'] == False) & 
+                               (df['DATE DISPO'] < un_an_ago)].copy()
+        
         if not alertes_critiques.empty:
-            st.error(f"🚨 **ALERTE CRITIQUE : {len(alertes_critiques)} retouches de plus d'un AN !**")
-            st.dataframe(alertes_critiques[['DATE DISPO', 'NOM', 'N° SOUCHE', 'NOM ARTICLE']].sort_values('DATE DISPO'), use_container_width=True)
+            st.error(f"🚨 **ALERTE CRITIQUE : {len(alertes_critiques)} retouches sont en boutique depuis plus d'un AN !**")
+            st.write("Ces pièces devraient probablement être sorties du stock ou faire l'objet d'une procédure spécifique.")
+            st.dataframe(
+                alertes_critiques[['DATE DISPO', 'NOM', 'N° SOUCHE', 'NOM ARTICLE']]
+                .sort_values('DATE DISPO'), 
+                use_container_width=True
+            )
+            st.markdown("---")
+
+        # 2. ALERTES RELANCES CLASSIQUES (> 30j et < 1 an)
+        alertes_stock = df[(df['DATE DISPO'].notna()) & 
+                           (df['RECUPERE'] == False) & 
+                           (df['DATE DISPO'] < un_mois_ago) &
+                           (df['DATE DISPO'] >= un_an_ago)].copy()
 
         if not alertes_stock.empty:
-            st.warning(f"⚠️ **{len(alertes_stock)} retouches de plus de 30 jours.**")
+            st.warning(f"⚠️ **{len(alertes_stock)} retouches sont en boutique depuis plus de 30 jours.**")
             st.dataframe(alertes_stock[['DATE DISPO', 'NOM', 'N° SOUCHE', 'NOM ARTICLE']].sort_values('DATE DISPO'), use_container_width=True)
-
-        # --- EXPORT INTELLIGENT ---
-        if not alertes_stock.empty or not alertes_critiques.empty:
-            df_relances = pd.concat([alertes_critiques, alertes_stock])
-            col_email = next((c for c in df.columns if 'EMAIL' in c.upper() or 'MAIL' in c.upper()), None)
             
-            def format_relance(row):
-                email = str(row[col_email]).strip() if col_email and pd.notna(row[col_email]) else ""
-                if email and "@" in email:
-                    return pd.Series({'NOM': row['NOM'], 'PRENOM': row.get('PRENOM', ''), 'EMAIL': email, 'SOUCHE': row['N° SOUCHE'], 'ACTION': 'EMAIL'})
-                else:
-                    res = row.copy()
-                    res['ACTION'] = '⚠️ APPEL (Email manquant)'
-                    return res
-
-            df_export = df_relances.apply(format_relance, axis=1)
-            csv = df_export.to_csv(index=False).encode('utf-8-sig')
-            st.download_button("📩 Télécharger la liste de contacts (Emails prioritaires)", csv, f"relances_sezane_{datetime.now().strftime('%d_%m')}.csv", "text/csv")
+            # Bouton de téléchargement combiné pour les relances
+            full_relances = pd.concat([alertes_critiques, alertes_stock])
+            csv = full_relances.to_csv(index=False).encode('utf-8')
+            st.download_button("📩 Télécharger la liste complète des relances (inclus +1 an)", csv, "relances_globales.csv", "text/csv")
         else:
-            st.success("✅ Aucun article en attente de relance.")
+            if alertes_critiques.empty:
+                st.success("✅ Aucun article en attente de relance.")
 
         st.markdown("---")
+        
+        # 3. TOUTES LES RETOUCHES EN ATTENTE (Chez le retoucheur)
         attente_globale = df[df['DATE DISPO'].isna()].copy()
         st.subheader(f"🧵 Chez le retoucheur ({len(attente_globale)} pièces)")
         if not attente_globale.empty:
@@ -248,10 +309,19 @@ try:
             if not err_recup.empty: st.dataframe(err_recup[['DATE CLIENT', 'NOM', 'N° SOUCHE']])
 
         st.markdown("---")
+        st.subheader("📊 Score de Qualité de Saisie")
         total_erreurs = len(err_chrono) + len(err_souche) + len(err_recup)
         score = max(0, 100 - (total_erreurs / len(df) * 100)) if len(df) > 0 else 100
-        fig_gauge = go.Figure(go.Indicator(mode = "gauge+number", value = score, title = {'text': "Fiabilité des données (%)"}, gauge = {'axis': {'range': [0, 100]}, 'bar': {'color': "#D4AF37"}}))
+        
+        fig_gauge = go.Figure(go.Indicator(
+            mode = "gauge+number",
+            value = score,
+            title = {'text': "Fiabilité des données (%)"},
+            gauge = {'axis': {'range': [0, 100]}, 'bar': {'color': "#D4AF37"}}
+        ))
+        fig_gauge.update_layout(height=300)
         st.plotly_chart(fig_gauge, use_container_width=True)
+        st.metric("Taux de fiabilité du fichier", f"{score:.1f}%")
 
 except Exception as e:
     st.error(f"Erreur lors de l'analyse : {e}")
